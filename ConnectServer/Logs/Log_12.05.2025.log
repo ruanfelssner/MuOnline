@@ -1,0 +1,21 @@
+[00:23:38]  ########## Start of work program! ##########
+[00:23:38]  Version: 1.0.10.1120; Build: 20.01.2012
+[00:23:38]  Unknown 64-bit
+[00:23:38]  CrashDump System! DbgHelp.dll 5.1 or later!
+[00:23:38]  CrashDump System! FolderPath: 'C:\MuServer\ConnectServer\';
+[00:23:38]  CrashDump System - Successfully installed.
+[00:23:38]  'BoR_Config.ini' file successfully loaded.
+[00:23:38]  Protocol version: 20050502; (0.98.* - 1.05.*)
+[00:23:38]  Active Servers: 1
+[00:23:38]  'BoR_ServerList.dat' file successfully loaded.
+[00:23:38]  Data from file 'BoR_WZ_ServerInfo.ini' load success.
+[00:23:38]  TCP Recv Socket Initialize Success. Port: 44405;
+[00:23:38]  Run I/O Completion Port System. (10 working threads)
+[00:23:38]  UDP Recv Socket Initialize Success. Port: 55557;
+[00:23:38]  # Current settings:
+[00:23:38]  - PortTCP: 44405;
+[00:23:38]  - PortUDP: 55557;
+[00:23:38]  - WriteLog: Enabled;
+[00:23:38]  - ProtocolMode: 2;
+[00:23:38]  - MultipleConnections: Enabled;
+[00:23:38]  - MaxConnections: 20;

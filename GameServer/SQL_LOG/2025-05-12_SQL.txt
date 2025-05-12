@@ -1,0 +1,7 @@
+00:11:08 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+00:11:10 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+00:13:32 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+00:13:33 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+00:24:06 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+00:25:05 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+00:25:06 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'

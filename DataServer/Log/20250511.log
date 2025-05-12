@@ -78,4 +78,239 @@ Socket number 1012 connected
 10:17:06p WZ_PeriodItemSelect 8, 'ADM-Ruan'
 10:17:06p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
 10:17:11p WZ_GetItemSerial2 '3000'
-10:27:01p UPDATE Character SET cLevel=400,Class=19,LevelUpPoint=300, Experience=-472819216, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1764622650, Life=2507.600098, MaxLife=830.000000, Mana=2555.400146, MaxMana=6552.600098, MapNumber=6, MapPosX=69, MapPosY=116, MapDir=0, PkCount=0, PkLevel=3, 
+10:27:01p UPDATE Character SET cLevel=400,Class=19,LevelUpPoint=300, Experience=-472819216, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1764622650, Life=2507.600098, MaxLife=830.000000, Mana=2555.400146, MaxMana=6552.600098, MapNumber=6, MapPosX=69, MapPosY=116, MapDir=0, PkCount=0, PkLevel=3, 11:25:58p exec WZ_CreateCharacter_GetVersion
+11:25:58p DELETE FROM DefaultClassType
+11:25:58p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,0,18,18,15, 30, 60.000000,60.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+11:25:58p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,16,28,20,25, 10, 110.000000,110.000000,20.000000,20.000000, 0,182,128, 3, 0, 0)
+11:25:58p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,32,22,25,20, 15, 80.000000,80.000000,30.000000,30.000000, 0,182,128, 3, 0, 0)
+11:25:58p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,48,26,26,26, 26, 110.000000,110.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+11:25:58p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,64,26,20,20, 15, 90.000000,90.000000,40.000000,40.000000, 0,182,128, 3, 0, 25)
+11:25:58p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,80,21,21,18, 23, 70.000000,70.000000,40.000000,40.000000, 0,182,128, 3, 0, 0)
+11:25:58p exec WZ_Get_DBID
+11:25:58p SELECT ItemCount, Number from GameServerInfo where Number=0
+11:25:58p [ANTI-HACKING][IP LIST] IP : [127.0.0.1] Length : 255
+[IP List Load ] - AllowableIPList.txt file is Loaded
+DataServer Run
+11:26:35p UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 964 connected
+11:26:41p UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 984 connected
+11:26:42p EXEC WZ_CS_GetCastleTotalInfo 0, 7
+11:26:42p EXEC WZ_CS_GetCastleNpcInfo 0
+11:26:42p EXEC WZ_CW_InfoLoad 0
+11:28:04p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:28:04p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:28:04p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:28:04p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:28:04p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[] 4[] 5[]
+11:28:04p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:28:04p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:28:04p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:28:04p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:28:05p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+11:28:05p UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+11:28:05p SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+11:28:05p WZ_PeriodItemSelect 8, 'ADM-Ruan'
+11:28:05p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+11:28:15p SELECT Name FROM OptionData WHERE Name='ADM-Ruan'
+11:28:15p UPDATE OptionData SET GameOption=25, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4, RKey=0, QWERLevel=0 where Name='ADM-Ruan'
+11:28:15p UPDATE Character SET cLevel=400,Class=19,LevelUpPoint=300, Experience=-472819216, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1764602650, Life=3044.800049, MaxLife=830.000000, Mana=4654.000000, MaxMana=6552.600098, MapNumber=0, MapPosX=146, MapPosY=132, MapDir=2, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'ADM-Ruan'
+11:28:15p EXEC WZ_QMK_InfoSave 'ADM-Ruan', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:28:35p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:28:35p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:28:35p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:28:35p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:28:35p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[] 4[] 5[]
+11:28:35p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:28:35p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:28:35p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:28:35p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:28:38p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+11:28:38p UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+11:28:38p SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+11:28:38p WZ_PeriodItemSelect 8, 'ADM-Ruan'
+11:28:38p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+11:29:15p WZ_GetItemSerial2 '3000'
+11:31:38p SELECT Name FROM OptionData WHERE Name='ADM-Ruan'
+11:31:38p UPDATE OptionData SET GameOption=25, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4, RKey=0, QWERLevel=-1 where Name='ADM-Ruan'
+11:31:38p UPDATE Character SET cLevel=400,Class=19,LevelUpPoint=300, Experience=-472819216, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1669921350, Life=2570.600098, MaxLife=830.000000, Mana=4683.000000, MaxMana=6552.600098, MapNumber=0, MapPosX=121, MapPosY=141, MapDir=6, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'ADM-Ruan'
+11:31:39p EXEC WZ_QMK_InfoSave 'ADM-Ruan', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:31:39p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:31:39p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:31:39p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:31:39p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:31:39p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[] 4[] 5[]
+11:31:39p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:31:39p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:31:39p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:31:39p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:31:40p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='MonaLisa'
+11:31:40p UPDATE AccountCharacter SET GameIDC='MonaLisa' WHERE Id='ruan'
+11:31:40p SELECT * FROM OptionData WHERE Name='MonaLisa'
+11:31:40p WZ_PeriodItemSelect 8, 'MonaLisa'
+11:31:40p EXEC WZ_QMK_InfoLoad 'MonaLisa'
+11:32:00p SELECT Name FROM OptionData WHERE Name='MonaLisa'
+11:32:00p UPDATE OptionData SET GameOption=9, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4, RKey=0, QWERLevel=-1 where Name='MonaLisa'
+11:32:01p UPDATE Character SET cLevel=307,Class=35,LevelUpPoint=265, Experience=456864400, Strength=2012, Dexterity=1725, Vitality=70, Energy=240, Money=795933055, Life=524.000000, MaxLife=486.000000, Mana=892.500000, MaxMana=826.500000, MapNumber=6, MapPosX=62, MapPosY=101, MapDir=1, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'MonaLisa'
+11:32:01p EXEC WZ_QMK_InfoSave 'MonaLisa', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:32:01p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:32:01p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:32:01p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:32:01p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:32:01p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[] 4[] 5[]
+11:32:01p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:32:01p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:32:01p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:32:01p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:32:10p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:32:10p WZ_CreateCharacter 'ruan', 'Jhowzinho', '64'
+11:32:10p 캐릭터 생성 ruan Jhowzinho 64
+11:32:10p UPDATE AccountCharacter SET GameID3='Jhowzinho' WHERE Id='ruan'
+11:32:11p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Jhowzinho'
+11:32:11p UPDATE AccountCharacter SET GameIDC='Jhowzinho' WHERE Id='ruan'
+11:32:11p SELECT * FROM OptionData WHERE Name='Jhowzinho'
+11:32:11p WZ_PeriodItemSelect 8, 'Jhowzinho'
+11:32:11p EXEC WZ_QMK_InfoLoad 'Jhowzinho'
+11:38:33p UPDATE Character SET cLevel=67,Class=64,LevelUpPoint=122, Experience=3267000, Strength=26, Dexterity=20, Vitality=20, Energy=155, Money=1975607615, Life=189.000000, MaxLife=189.000000, Mana=816.000000, MaxMana=316.000000, MapNumber=2, MapPosX=36, MapPosY=26, MapDir=7, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=225, ChatLimitTime=0, FruitPoint=0 where Name = 'Jhowzinho'
+11:38:33p EXEC WZ_QMK_InfoSave 'Jhowzinho', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:39:34p SELECT Name FROM OptionData WHERE Name='Jhowzinho'
+11:39:34p INSERT INTO OptionData (Name, GameOption, Qkey, Wkey, Ekey, ChatWindow, RKey, QWERLevel) VALUES ('Jhowzinho', 9, 0, 4, 8, 4, 0, -1)
+11:39:35p UPDATE Character SET cLevel=67,Class=64,LevelUpPoint=0, Experience=3267000, Strength=26, Dexterity=20, Vitality=20, Energy=155, Money=1964398115, Life=189.000000, MaxLife=189.000000, Mana=816.000000, MaxMana=316.000000, MapNumber=0, MapPosX=138, MapPosY=124, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=347, ChatLimitTime=0, FruitPoint=0 where Name = 'Jhowzinho'
+11:39:36p EXEC WZ_QMK_InfoSave 'Jhowzinho', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:39:36p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:39:36p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:39:36p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:39:36p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:39:36p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[Jhowzinho] 4[] 5[]
+11:39:36p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:39:36p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:39:36p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:39:36p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:39:36p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Jhowzinho'
+11:39:36p SELECT G_Status FROM GuildMember WHERE Name='Jhowzinho'
+11:39:38p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+11:39:38p UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+11:39:38p SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+11:39:38p WZ_PeriodItemSelect 8, 'ADM-Ruan'
+11:39:38p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+11:48:34p UPDATE Character SET cLevel=329,Class=19,LevelUpPoint=1940, Experience=799536080, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1650861350, Life=3408.500000, MaxLife=1486.000000, Mana=2619.500000, MaxMana=6553.100098, MapNumber=49, MapPosX=197, MapPosY=129, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'ADM-Ruan'
+11:48:34p EXEC WZ_QMK_InfoSave 'ADM-Ruan', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:49:59p SELECT Name FROM OptionData WHERE Name='ADM-Ruan'
+11:49:59p UPDATE OptionData SET GameOption=25, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4, RKey=0, QWERLevel=-1 where Name='ADM-Ruan'
+11:50:00p UPDATE Character SET cLevel=331,Class=19,LevelUpPoint=1950, Experience=847267000, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1643791350, Life=6102.200195, MaxLife=1490.000000, Mana=2619.500000, MaxMana=6553.100098, MapNumber=6, MapPosX=72, MapPosY=111, MapDir=7, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'ADM-Ruan'
+11:50:00p EXEC WZ_QMK_InfoSave 'ADM-Ruan', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:50:00p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:50:00p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:50:00p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:50:00p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:50:00p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[Jhowzinho] 4[] 5[]
+11:50:00p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:50:00p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:50:00p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:50:00p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:50:00p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Jhowzinho'
+11:50:00p SELECT G_Status FROM GuildMember WHERE Name='Jhowzinho'
+11:50:01p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='MonaLisa'
+11:50:01p UPDATE AccountCharacter SET GameIDC='MonaLisa' WHERE Id='ruan'
+11:50:01p SELECT * FROM OptionData WHERE Name='MonaLisa'
+11:50:01p WZ_PeriodItemSelect 8, 'MonaLisa'
+11:50:01p EXEC WZ_QMK_InfoLoad 'MonaLisa'
+11:50:29p SELECT Name FROM OptionData WHERE Name='MonaLisa'
+11:50:29p UPDATE OptionData SET GameOption=9, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4, RKey=0, QWERLevel=-1 where Name='MonaLisa'
+11:50:30p UPDATE Character SET cLevel=307,Class=35,LevelUpPoint=265, Experience=456864400, Strength=2012, Dexterity=1725, Vitality=70, Energy=240, Money=795933055, Life=508.000000, MaxLife=486.000000, Mana=774.000000, MaxMana=826.500000, MapNumber=6, MapPosX=55, MapPosY=81, MapDir=5, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'MonaLisa'
+11:50:30p EXEC WZ_QMK_InfoSave 'MonaLisa', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+11:50:30p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:50:30p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:50:30p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:50:30p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:50:30p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[Jhowzinho] 4[] 5[]
+11:50:30p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:50:30p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:50:30p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:50:30p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:50:30p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Jhowzinho'
+11:50:30p SELECT G_Status FROM GuildMember WHERE Name='Jhowzinho'
+11:50:37p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:50:37p WZ_CreateCharacter 'ruan', 'Maguinho', '0'
+11:50:37p 캐릭터 생성 ruan Maguinho 0
+11:50:37p UPDATE AccountCharacter SET GameID4='Maguinho' WHERE Id='ruan'
+11:50:40p11:52:51p exec WZ_CreateCharacter_GetVersion
+11:52:51p DELETE FROM DefaultClassType
+11:52:51p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,0,18,18,15, 30, 60.000000,60.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+11:52:51p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,16,28,20,25, 10, 110.000000,110.000000,20.000000,20.000000, 0,182,128, 3, 0, 0)
+11:52:51p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,32,22,25,20, 15, 80.000000,80.000000,30.000000,30.000000, 0,182,128, 3, 0, 0)
+11:52:51p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,48,26,26,26, 26, 110.000000,110.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+11:52:51p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,64,26,20,20, 15, 90.000000,90.000000,40.000000,40.000000, 0,182,128, 3, 0, 25)
+11:52:51p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,80,21,21,18, 23, 70.000000,70.000000,40.000000,40.000000, 0,182,128, 3, 0, 0)
+11:52:51p exec WZ_Get_DBID
+11:52:51p SELECT ItemCount, Number from GameServerInfo where Number=0
+11:52:51p [ANTI-HACKING][IP LIST] IP : [127.0.0.1] Length : 255
+[IP List Load ] - AllowableIPList.txt file is Loaded
+DataServer Run
+11:53:29p UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 952 connected
+11:53:35p UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 976 connected
+11:53:36p EXEC WZ_CS_GetCastleTotalInfo 0, 7
+11:53:36p EXEC WZ_CS_GetCastleNpcInfo 0
+11:53:36p EXEC WZ_CW_InfoLoad 0
+11:54:03p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:54:03p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:54:03p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:54:03p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:54:03p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[Jhowzinho] 4[Maguinho] 5[]
+11:54:03p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:54:03p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:54:03p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:54:03p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:54:03p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Jhowzinho'
+11:54:03p SELECT G_Status FROM GuildMember WHERE Name='Jhowzinho'
+11:54:03p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Maguinho'
+11:54:03p SELECT G_Status FROM GuildMember WHERE Name='Maguinho'
+11:54:04p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+11:54:04p UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+11:54:04p SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+11:54:04p WZ_PeriodItemSelect 8, 'ADM-Ruan'
+11:54:04p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+11:54:07p WZ_GetItemSerial2 '3000'
+11:56:42p SELECT Name FROM OptionData WHERE Name='ADM-Ruan'
+11:56:42p UPDATE OptionData SET GameOption=25, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4, RKey=0, QWERLevel=0 where Name='ADM-Ruan'
+11:56:42p UPDATE Character SET cLevel=357,Class11:57:16p exec WZ_CreateCharacter_GetVersion
+11:57:16p DELETE FROM DefaultClassType
+11:57:16p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,0,18,18,15, 30, 60.000000,60.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+11:57:16p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,16,28,20,25, 10, 110.000000,110.000000,20.000000,20.000000, 0,182,128, 3, 0, 0)
+11:57:16p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,32,22,25,20, 15, 80.000000,80.000000,30.000000,30.000000, 0,182,128, 3, 0, 0)
+11:57:16p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,48,26,26,26, 26, 110.000000,110.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+11:57:16p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,64,26,20,20, 15, 90.000000,90.000000,40.000000,40.000000, 0,182,128, 3, 0, 25)
+11:57:16p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,80,21,21,18, 23, 70.000000,70.000000,40.000000,40.000000, 0,182,128, 3, 0, 0)
+11:57:16p exec WZ_Get_DBID
+11:57:16p SELECT ItemCount, Number from GameServerInfo where Number=0
+11:57:17p [ANTI-HACKING][IP LIST] IP : [127.0.0.1] Length : 255
+[IP List Load ] - AllowableIPList.txt file is Loaded
+DataServer Run
+11:57:54p UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 960 connected
+11:58:00p UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 980 connected
+11:58:01p EXEC WZ_CS_GetCastleTotalInfo 0, 7
+11:58:01p EXEC WZ_CS_GetCastleNpcInfo 0
+11:58:01p EXEC WZ_CW_InfoLoad 0
+11:58:42p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+11:58:42p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+11:58:42p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+11:58:42p SELECT * FROM AccountCharacter WHERE Id='ruan'
+11:58:42p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[Jhowzinho] 4[Maguinho] 5[]
+11:58:42p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+11:58:42p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+11:58:42p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+11:58:42p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+11:58:42p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Jhowzinho'
+11:58:42p SELECT G_Status FROM GuildMember WHERE Name='Jhowzinho'
+11:58:42p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Maguinho'
+11:58:42p SELECT G_Status FROM GuildMember WHERE Name='Maguinho'
+11:58:44p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+11:58:44p UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+11:58:44p SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+11:58:44p WZ_PeriodItemSelect 8, 'ADM-Ruan'
+11:58:44p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+11:58:49p WZ_GetItemSerial2 '3000'

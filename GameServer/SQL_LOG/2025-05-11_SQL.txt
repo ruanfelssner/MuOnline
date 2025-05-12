@@ -1,0 +1,25 @@
+23:01:10 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:01:43 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:02:08 - DRIVER=SQL Server;Server=;DATABASE=;UID=;PWD=;
+23:09:32 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:25:38 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:26:32 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:28:04 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:28:05 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:28:35 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:28:38 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:31:40 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:32:11 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:39:38 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:42:41 - SELECT Resets from Character WHERE Name = 'ADM-Ruan'
+23:42:41 - UPDATE Character SET Resets = Resets + 1, ResetsDay = ResetsDay + 1, ResetsWeek = ResetsWeek + 1, ResetsMonth = ResetsMonth + 1 WHERE Name = 'ADM-Ruan'
+23:42:41 - UPDATE MEMB_INFO SET ItemCred = ItemCred + 1 WHERE memb___id = 'ruan'
+23:42:41 - [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'ItemCred'.k = ResetsWeek + 1, ResetsMonth = ResetsMonth + 1 WHERE Name = 'ADM-Ruan'
+23:50:01 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:50:40 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:53:26 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:54:03 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:54:04 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:57:51 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+23:58:42 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+23:58:44 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
