@@ -1,0 +1,40 @@
+//商店名称：工匠尤达(仙踪林)
+//生成日期：2007年12月12日
+//Edited-by-MgEdit(Ace)
+14               9               0               255               0               0               0  //Alcohol
+14               8               0               255               0               0               0  //Antidote
+14               3               7               255               0               0               0  //Large Healing Potion
+14               6               7               255               0               0               0  //Large Mana Potion
+13               0               0               255               0               0               0  //Guardian Angel
+13               1               0               255               0               0               0  //Imp
+13               2               0               255               0               0               0  //Horn of Uniria
+13               3               0               255               0               0               0  //Horn of Dinorant
+13               8               0               255               0               0               0  //Ring of Ice
+13               25              0               255               0               0               0  //Pendant of Ice
+13               40              0               255               0               0               0  //S3 Ring 2
+
+ 
+12               8               0               255               0               0               0  //Healing Orb
+12               9               0               255               0               0               0  //Greater Defense Orb
+12               10              0               255               0               0               0  //Greater Damage Orb
+12               17              0               255               0               0               0  //Penetration Orb
+12               11              0               255               0               0               0  //Goblin Summon Orb
+12               11              1               255               0               0               0  //Golem Summon Orb
+12               11              2               255               0               0               0  //Assassin Summon Orb
+12               11              3               255               0               0               0  //Elite Yeti Summon Orb
+12               11              4               255               0               0               0  //Dark Knight Summon Orb
+12               11              5               255               0               0               0  //Bali Summon Orb
+12               11              6               255               0               0               0  //Soldier Summon Orb
+12               18              0               255               0               0               0  //Ice Arrow Orb
+6                3               9               255               1               1               1  //Elven Shield
+6                16              9               255               1               1               1  //Elemental Shield
+4                15              9               255               0               0               0  //Arrows
+4                7               9               255               0               0               0  //Bolts
+2                7               9               255               1               1               1  //Elemental Mace
+4                16              9               255               1               1               1  //Saint Crossbow
+4                18              9               255               1               1               1  //Divine Crossbow of Archangel
+4                9               9               255               1               1               1  //Golden Crossbow
+4                0               9               255               1               1               1  //Short Bow
+4                1               9               255               1               1               1  //Bow
+4                8               9               255               1               1               1  //Crossbow
+end

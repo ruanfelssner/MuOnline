@@ -1,0 +1,81 @@
+01:44:11a exec WZ_CreateCharacter_GetVersion
+01:44:11a DELETE FROM DefaultClassType
+01:44:11a INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,0,18,18,15, 30, 60.000000,60.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+01:44:11a INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,16,28,20,25, 10, 110.000000,110.000000,20.000000,20.000000, 0,182,128, 3, 0, 0)
+01:44:11a INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,32,22,25,20, 15, 80.000000,80.000000,30.000000,30.000000, 0,182,128, 3, 0, 0)
+01:44:11a INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,48,26,26,26, 26, 110.000000,110.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+01:44:11a INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,64,26,20,20, 15, 90.000000,90.000000,40.000000,40.000000, 0,182,128, 3, 0, 25)
+01:44:11a INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,80,21,21,18, 23, 70.000000,70.000000,40.000000,40.000000, 0,182,128, 3, 0, 0)
+01:44:11a exec WZ_Get_DBID
+01:44:11a SELECT ItemCount, Number from GameServerInfo where Number=0
+01:44:11a [ANTI-HACKING][IP LIST] IP : [127.0.0.1] Length : 255
+[IP List Load ] - AllowableIPList.txt file is Loaded
+DataServer Run
+01:44:48a UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 960 connected
+01:44:54a UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 980 connected
+01:44:55a EXEC WZ_CS_GetCastleTotalInfo 0, 7
+01:44:55a EXEC WZ_CS_GetCastleNpcInfo 0
+01:44:55a EXEC WZ_CW_InfoLoad 0
+01:45:38a SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+01:45:38a (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+01:45:38a SELECT Id FROM AccountCharacter WHERE Id='ruan'
+01:45:38a SELECT * FROM AccountCharacter WHERE Id='ruan'
+01:45:38a CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[] 4[] 5[]
+01:45:38a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+01:45:38a SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+01:45:38a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+01:45:38a SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+01:45:40a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+01:45:40a UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+01:45:40a SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+01:45:40a WZ_PeriodItemSelect 8, 'ADM-Ruan'
+01:45:40a EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+01:46:11a WZ_GetItemSerial2 '3000'
+01:55:35a UPDATE Character SET cLevel=400,Class=19,LevelUpPoint=300, Experience=-805888824, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1765875850, Life=2570.600098, MaxLife=830.000000, Mana=2615.400146, MaxMana=6552.600098, MapNumber=38, MapPosX=98, MapPosY=85, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'ADM-Ruan'
+01:55:35a EXEC WZ_QMK_InfoSave 'ADM-Ruan', -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+01:55:55a SELECT Name FROM OptionData WHERE Name='ADM-Ruan'
+01:55:55a UPDATE OptionData SE01:32:12p exec WZ_CreateCharacter_GetVersion
+01:32:12p DELETE FROM DefaultClassType
+01:32:12p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,0,18,18,15, 30, 60.000000,60.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+01:32:12p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,16,28,20,25, 10, 110.000000,110.000000,20.000000,20.000000, 0,182,128, 3, 0, 0)
+01:32:12p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,32,22,25,20, 15, 80.000000,80.000000,30.000000,30.000000, 0,182,128, 3, 0, 0)
+01:32:12p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,48,26,26,26, 26, 110.000000,110.000000,60.000000,60.000000, 0,182,128, 3, 0, 0)
+01:32:12p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,64,26,20,20, 15, 90.000000,90.000000,40.000000,40.000000, 0,182,128, 3, 0, 25)
+01:32:12p INSERT INTO DefaultClassType (Level, Class, Strength, Dexterity, Vitality, Energy, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, DbVersion, LevelUpPoint,Leadership)  VALUES (1,80,21,21,18, 23, 70.000000,70.000000,40.000000,40.000000, 0,182,128, 3, 0, 0)
+01:32:12p exec WZ_Get_DBID
+01:32:12p SELECT ItemCount, Number from GameServerInfo where Number=0
+01:32:12p [ANTI-HACKING][IP LIST] IP : [127.0.0.1] Length : 255
+[IP List Load ] - AllowableIPList.txt file is Loaded
+DataServer Run
+01:32:49p UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 988 connected
+01:32:55p UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 1012 connected
+01:32:56p EXEC WZ_CS_GetCastleTotalInfo 0, 7
+01:32:56p EXEC WZ_CS_GetCastleNpcInfo 0
+01:32:56p EXEC WZ_CW_InfoLoad 0
+06:30:00p EXEC WZ_CW_InfoSave 0, 1, 1
+06:31:00p EXEC WZ_CW_InfoSave 0, 2, 2
+06:32:00p EXEC WZ_CW_InfoSave 0, 3, 2
+06:34:30p EXEC WZ_CW_InfoSave 0, 5, 1
+06:34:30p EXEC WZ_CW_InfoSave 0, 5, 1
+06:34:45p EXEC WZ_CW_InfoSave 0, 6, 1
+06:34:55p EXEC WZ_CW_InfoSave 0, 0, 1
+10:17:03p SELECT Summoner FROM AccountCharacter WHERE Id = 'ruan'
+10:17:03p (2) SQLSTATE:42S22, Diagnosis:[Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'Summoner'.
+10:17:03p SELECT Id FROM AccountCharacter WHERE Id='ruan'
+10:17:03p SELECT * FROM AccountCharacter WHERE Id='ruan'
+10:17:03p CharName : ruan 1[ADM-Ruan] 2[MonaLisa] 3[] 4[] 5[]
+10:17:03p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='ADM-Ruan'
+10:17:03p SELECT G_Status FROM GuildMember WHERE Name='ADM-Ruan'
+10:17:03p SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='MonaLisa'
+10:17:03p SELECT G_Status FROM GuildMember WHERE Name='MonaLisa'
+10:17:06p SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='ADM-Ruan'
+10:17:06p UPDATE AccountCharacter SET GameIDC='ADM-Ruan' WHERE Id='ruan'
+10:17:06p SELECT * FROM OptionData WHERE Name='ADM-Ruan'
+10:17:06p WZ_PeriodItemSelect 8, 'ADM-Ruan'
+10:17:06p EXEC WZ_QMK_InfoLoad 'ADM-Ruan'
+10:17:11p WZ_GetItemSerial2 '3000'
+10:27:01p UPDATE Character SET cLevel=400,Class=19,LevelUpPoint=300, Experience=-472819216, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1764622650, Life=2507.600098, MaxLife=830.000000, Mana=2555.400146, MaxMana=6552.600098, MapNumber=6, MapPosX=69, MapPosY=116, MapDir=0, PkCount=0, PkLevel=3, 

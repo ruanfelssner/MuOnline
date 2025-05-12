@@ -1,0 +1,54 @@
+//Elf Lala
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption |Item Name
+//===========================================================================================================================
+	7	13	9	0	0	1	4	// Spirit Helm
+	7	14	9	0	0	1	4	// Guardian Helm
+	7	19	9	0	0	1	4	// Divine Helm
+	7	24	9	0	0	1	4	// Nature Helm
+
+	8	13	9	0	0	1	4	// Spirit Armor
+	8	14	9	0	0	1	4	// Guardian Armor
+	8	19	9	0	0	1	4	// Divine Armor
+	8	24	9	0	0	1	4	// Nature Armor
+
+	10	13	9	0	0	1	4	// Spirit Gloves
+	10	14	9	0	0	1	4	// Guardian Gloves
+	10	19	9	0	0	1	4	// Divine Gloves
+	10	24	9	0	0	1	4	// Nature Gloves
+
+	9	13	9	0	0	1	4	// Spirit Pants
+	9	14	9	0	0	1	4	// Guardian Pants
+	9	19	9	0	0	1	4	// Divine Pants
+	9	24	9	0	0	1	4	// Nature Pants
+
+	11	13	9	0	0	1	4	// Spirit Boots
+	11	14	9	0	0	1	4	// Guardian Boots
+	11	19	9	0	0	1	4	// Divine Boots
+	11	24	9	0	0	1	4	// Nature Boots
+
+	12	8	0	0	0	0	0	// Healing Orb
+	12	9	0	0	0	0	0	// Greater Defense Orb
+	12	10	0	0	0	0	0	// Greater Damage Orb
+	12	11	0	0	0	0	0	// Goblin Summon Orb
+	12	11	2	0	0	0	0	// Goblin Summon Orb
+	12	11	1	0	0	0	0	// Goblin Summon Orb
+	12	17	0	0	0	0	0	// Penetration Orb
+	12	18	0	0	0	0	0	// Ice Arrow Orb
+	4	16	9	0	1	1	4	// Saint Crossbow
+	4	17	9	0	1	1	4	// Giant Bow
+	4	18	9	0	1	1	4	// Archangel Crossbow
+
+	4	7	9	0	0	0	0	// Bolts
+	4	15	9	0	0	0	0	// Arrows+5
+
+	14	19	1	0	0	0	0	// Devil Invitation+1
+	14	19	2	0	0	0	0	// Devil Invitation+2
+	14	19	3	0	0	0	0	// Devil Invitation+3
+	14	19	4	0	0	0	0	// Devil Invitation+4
+        14	3	0	255	0	0	0	// Large Healing Potion
+	14	6	0	255	0	0	0	// Large Mana Potion
+	14	19	5	0	0	0	0	// Devil Invitation+5
+	14	19	6	0	0	0	0	// Devil Invitation+6
+end

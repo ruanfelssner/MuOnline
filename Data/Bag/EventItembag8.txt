@@ -1,0 +1,44 @@
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	5	0	0	1	0       // Blade
+1	5	0	0	1	0	// Battle Axe
+2	2	0	0	1	0	// Flail
+2	3	0	0	1	0	// Great Hammer
+3	5	0	0	1	0	// Double Poleaxe
+3	6	0	0	1	0	// Halberd
+0	0	0	0	1	0	// Short Sword
+4	3	0	0	1	0	// Battle Bow
+1	3	0	0	1	0	// Tomahawk
+5	2	0	0	1	0	// Serpent Staff
+4	9	0	0	1	0	// Golden Crossbow
+4	10	0	0	1	0	// Arquebus
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	5	0	0	1	0       // Leather Helm
+7	2	0	0	1	0       // Pad Helm
+7	10	0	0	1	0	// Vine Helm
+8	5	0	0	1	0	// Leather Armor
+8	2	0	0	1	0	// Pad Armor
+8	10	0	0	1	0	// Vine Armor
+9	5	0	0	1	0	// Leather Pants
+9	2	0	0	1	0	// Pad Pants
+9	10	0	0	1	0	// Vine Pants
+10	5	0	0	1	0	// Leather Gloves
+10	2	0	0	1	0	// Pad Gloves
+10	10	0	0	1	0	// Vine Gloves
+11	5	0	0	1	0       // Leather Boots	
+11	2	0	0	1	0	// Pad Boots
+11	10	0	0	1	0	// Vine Boots
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+13	8	0	0	1	1	//Ring of Ice
+13	9	0	0	1	1	//Ring of Poison
+13	21	0	0	1	1	//Ring of Fire
+13	22	0	0	1	1	//Ring of Earth
+13	24	0	0	1	1	//Ring of Magic

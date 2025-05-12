@@ -1,0 +1,21 @@
+Start
+SkinLoad OK
+SplashTimer Enabled OK
+writing default ini file
+writing default ini file DONE
+inifile updatefile
+Set tag
+Create lists..
+BTN2 click..
+Tray ico add..
+Hide button from Taskbar..
+do timer4..
+Set Pririoty class..
+SplashTimer: OnTimer
+SplashTimer ControlControl OK
+SplashTimer Image FreeStart
+SplashTimer Image FreeEND
+SplashTimer Form - > center
+START COUNTER
+START COUNTER OK
+ConfigButton click . all work

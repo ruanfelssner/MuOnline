@@ -1,0 +1,12 @@
+CREATE TABLE [Extwarehouse] (
+	[VaultID] [int] NULL ,
+	[AccountID] [char] (10) COLLATE Chinese_PRC_CI_AS NULL ,
+	[Items] [varbinary] (1920) NULL ,
+	[EndUseDate] [smalldatetime] NULL ,
+	[DbVersion] [tinyint] NULL ,
+	[Money] [int] NULL ,
+	[pw] [smallint] NULL 
+) ON [PRIMARY]
+GO
+
+

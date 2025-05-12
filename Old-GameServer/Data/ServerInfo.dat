@@ -1,0 +1,7 @@
+[GameServerInfo]
+
+ServerName		= GameServer
+ServerCode		= 0
+ConnectMemberLoad	= 0
+NonPK			= 0
+PkLimitFree		= 1

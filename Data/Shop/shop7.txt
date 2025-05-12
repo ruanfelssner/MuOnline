@@ -1,0 +1,13 @@
+//Isabel - A Feiticeira
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption | Item Name
+//===========================================================================================================================
+	13	18	1	0	0	0	0	// Convite Blood Castle +1
+	13	18	2	0	0	0	0	// Convite Blood Castle +2
+	13	18	3	0	0	0	0	// Convite Blood Castle +3
+	13	18	4	0	0	0	0	// Convite Blood Castle +4
+	13	18	5	0	0	0	0	// Convite Blood Castle +5
+	13	18	6	0	0	0	0	// Convite Blood Castle +6
+	13	18	7	0	0	0	0	// Convite Blood Castle +7
+end

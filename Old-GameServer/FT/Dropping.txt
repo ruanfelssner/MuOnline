@@ -1,0 +1,19 @@
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+; # GROUP		=	Grupo do item.
+; # INDEX		=	Indice do item.
+; # LEVEL		=	Level do item.
+; # LUCK		=	Atribui luck ao item.
+; # SKILL		=	Atribui Skill ao item.
+; # OPT			=	Adicional do item.
+; # EXE			=	Define se o item é excelente.
+; # MAP                 =       Número do mapa que irá dropar ou -1 para todos os mapas.
+; # MONST               =       Número do monstro que irá dropar ou -1 para todos os monstros.
+; # MIN		        =	Level mínimo do monstro.
+; # MAX			=	Level máximo do monstro.
+; # RATE		=	% de chance para dropar o item, máximo 10000.
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+; #  GROUP    INDEX     LEVEL     LUCK     SKILL     OPT     EXE     MAP     MONST    MIN     MAX     RATE
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0
+     0	      0	        0	  1	   0	     7	     0	     -1	     -1	      10      180     10   // Kris
+end

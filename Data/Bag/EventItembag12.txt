@@ -1,0 +1,39 @@
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	20	0	1	1	0       //Excellent Knight Blade
+6	13	0	1	1       0       //Excellent Dragon Shield
+5	11	0	0	1	0	//Excellent Staff of Kundun
+2	10	0	1	1	0	//Excellent Great Scepter
+0	18	0	1	1	0	//Excellent Thunder Blade
+4	19	0	1	1	0	//Excellent Great Reign Crossbow
+//=================================================================================
+//Sets  Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+//BK ITENS
+7	21	0	0	1	0       //Excellent Great Dragon Helm
+7	22	0	0	1	0	//Excellent Dark Soul Helm
+7	28	0	0	1	0	//Excellent Dark Master Mask
+7	24	0	0	1	0	//Excellent Red Spirit Helm
+8	21	0	0	1	0       //Excellent Great Dragon Armor
+8	22	0	0	1	0	//Excellent Dark Soul Armor
+8	28	0	0	1	0	//Excellent Dark Master Armor
+8	20	0	0	1	0	//Excellent Thunder Hawk Armor
+8	24	0	0	1	0	//Excellent Red Spirit Armor
+9	21	0	0	1	0       //Excellent Great Dragon Pants
+9	22	0	0	1	0	//Excellent Dark Soul Pants
+9	28	0	0	1	0	//Excellent Dark Master Pants
+9	20	0	0	1	0	//Excellent Thunder Hawk Pants
+9	24	0	0	1	0	//Excellent Red Spirit Pants
+10	21	0	0	1	0       //Excellent Great Dragon Gloves
+10	22	0	0	1	0	//Excellent Dark Soul Gloves
+10	28	0	0	1	0	//Excellent Dark Master Gloves
+10	20	0	0	1	0	//Excellent Thunder Hawk Gloves
+10	24	0	0	1	0	//Excellent Red Spirit Gloves
+11	21	0	0 	1	0       //Excellent Great Dragon Boots
+11	22	0	0	1	0	//Excellent Dark Soul Boots	
+11	28	0	0	1	0	//Excellent Dark Master Boots	        
+11	20	0	0	1	0	//Excellent Thunder Hawk Boots	
+11	24	0	0	1	0	//Excellent Red Spirit Boots

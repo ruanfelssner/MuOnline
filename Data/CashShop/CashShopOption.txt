@@ -1,0 +1,9 @@
+[CashShopOption]
+
+UseCashShop		= 1			// Habilitar Cashshop.
+ConnectShopServer	= 1			// Connectar ao Cashshopserver.exe
+ShopServerIP		= 127.0.0.1		// IP.
+ShopServerPort		= 55821			// PORTA.
+
+UseLotteryEvent		= 1			// Habilitar Loteria do Chaos Card.
+MapMoveBoundCheck	= 0			// Habilitar Verificação do move usando seals.

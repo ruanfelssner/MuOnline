@@ -1,0 +1,51 @@
+//Lumen - A Garçonete
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption | Item Name
+//===========================================================================================================================
+
+	14	3	11	255	0	0	0	// Large Healing Potion
+	14	6	11	255	0	0	0	// Large Mana Potion
+	14	8	11	255	0	0	0       // Antidote
+	13 	0 	11 	0 	0 	0 	0 	// Guardian Angel
+	13 	1 	11 	0 	0 	0 	0  	// Satan
+	14	13	0	255	0	0	0       // Jewel of Bless
+	14	14	0	255	0	0	0       // Jewel of Soul
+	14	16	0	0	0	0	0	// Jewel of Life
+	13	14	0	255	0	0	0       // Loch's Feather
+	13	29	0	0	0	0	0       // Armor of Guardman
+	14	10	0 	0	0 	0	0       // Town Portal Scroll
+	14	23	1	0	0	0	0       // Ring of Honor
+	14	24	0	0	0	0	0       // Broken Sword
+	14	24	1	0	0	0	0       // Dark Stone
+	14	26	0	0	0	0	0       // Soul of Wizard
+	14	25	0	0	0	0	0       // Tear Of Elf
+	14	23	0	0	0	0	0       // King's Book
+	14 	67 	0 	0 	0 	0 	0 	// Feather of Phoenix of Darkness
+	14 	66 	0 	0 	0 	0 	0 	// Horn of Hell Maine
+	13	38	0	0	0	0	0	// Moonstone Pendant 
+	14 	65 	0 	0 	0 	0 	0 	// Flame of Death Beam Knight
+	14      11      8       0       0       0       0       // Box of Kundun+1 
+	14      11      9       0       0       0       0       // Box of Kundun+2
+	14      11      10      0       0       0       0       // Box of Kundun+3
+	14      11      11      0       0       0       0       // Box of Kundun+4
+	14      11      12      0       0       0       0       // Box of Kundun+5
+	13 	2 	0 	0 	0 	0 	0 	// Horn of Uniria
+	13 	3 	0 	0 	0 	0 	0  	// Horn of Dinorant
+	14      9       11       255     0       0       0  	// Alcohol
+end
+
+//	14	28	1	0	0	0	0	// Lost Map +1
+//	14      28	2 	0	0	0	0       // Lost Map +2
+//	14	28	3	0	0	0	0       // Lost Map +3
+//	14	28	4	0	0	0	0       // Lost Map +4
+//	14	28	5	0	0	0	0	// Lost Map +5
+//	14	28	6	0	0	0	0	// Lost Map +6
+//	14	28	7	0	0	0	0	// Lost Map +7
+//	13      51      1       0       0       0       0       // Scroll Of Blood - Illusion 1
+//	13      51      2       0       0       0       0       // Scroll Of Blood - Illusion 2
+//	13      51      3       0       0       0       0       // Scroll Of Blood - Illusion 3
+//	13      51      4       0       0       0       0       // Scroll Of Blood - Illusion 4
+//	13      51      5       0       0       0       0       // Scroll Of Blood - Illusion 5
+//	13      51      6       0       0       0       0       // Scroll Of Blood - Illusion 6
+//	14	88	0	0	0	0	0	// Death Invitation

@@ -1,0 +1,8 @@
+1:49:30  [Item Serial] [127.0.0.1][55901] Type(7182) Serial(1164054)
+1:50:0  [Item Serial] [127.0.0.1][55901] Type(7182) Serial(1164114)
+1:50:34  [Item Serial] [127.0.0.1][55901] Type(7182) Serial(1164170)
+1:50:40  [Item Serial] [127.0.0.1][55901] Type(7182) Serial(1164180)
+22:21:13  [Item Serial] [127.0.0.1][55901] Type(7190) Serial(1167019)
+22:26:37  [Item Serial] [127.0.0.1][55901] Type(7181) Serial(1167040)
+22:32:14  [Item Serial] [127.0.0.1][55901] Type(7184) Serial(1167076)
+22:34:24  [Item Serial] [127.0.0.1][55901] Type(7181) Serial(1167138)

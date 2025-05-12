@@ -1,0 +1,25 @@
+//==================================================================================================================
+// Events:
+//		0 = Invasion of Dragons
+//		1 = Skeleton King Invasion
+//		2 = Golden Invasion
+//		3 = White Wizard Invasion
+//==================================================================================================================
+// Como configurar:
+// Sempre usar 2 linhas para o mesmo evento
+// 1ª linha: informações de inicio
+// 2ª linha: informações de término
+// Exemplo:
+//
+//	Event	Hour	Minutes
+//	0	0	0	// O evento 0 começará as 00:00
+//	0	0	10	// O evento 0 que começou as 00:00 terminará as 00:10
+//
+//==================================================================================================================
+// 	Event	Hour	Minutes
+//==================================================================================================================
+0
+	// Golden Invasion
+	2	21	52
+	2	21	54
+end

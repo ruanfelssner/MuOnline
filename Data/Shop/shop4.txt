@@ -1,0 +1,30 @@
+//Martin - O Vagabundo
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption | Item Name
+//===========================================================================================================================
+	7	8	9	0	0	1	1	// Brass Helm
+	7	6	9	0	0	1	1	// Scale Helm
+	7	16	9	0	0	1	1	// Black Dragon Helm
+	7	17	9	0	0	1	1	// Dark Phoenix Helm
+
+	8	8	9	0	0	1	1	// Brass Armor
+	8	6	9	0	0	1	1	// Scale Armor
+	8	16	9	0	0	1	1	// Black Dragon Armor
+	8	17	9	0	0	1	1	// Dark Phoenix Armor
+
+	10	8	9	0	0	1	1	// Brass Gloves
+	10	6	9	0	0	1	1	// Scale Gloves
+	10	16	9	0	0	1	1	// Black Dragon Gloves
+	10	17	9	0	0	1	1	// Plate Gloves
+
+	9	8	9	0	0	1	1	// Brass Pants
+	9	6	9	0	0	1	1	// Scale Pants
+	9	16	9	0	0	1	1	// Black Dragon Pants
+	9	17	9	0	0	1	1	// Dark Phoenix Pants
+
+	11	8	9	0	0	1	1	// Brass Boots
+	11	6	9	0	0	1	1	// Scale Boots
+	11	16	9	0	0	1	1	// Black Dragon Boots
+	11	17	9	0	0	1	1	// Dark Phoenix Boots
+end 

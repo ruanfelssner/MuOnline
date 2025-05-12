@@ -1,0 +1,41 @@
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+5	9	0	0	1	0	//Excellent Dragon Soul Staff
+6	14	0	0	1	0	//Excellent Legendary Shield
+2	11	0	1	1	0	//Excellent Lord Scepter
+4	16	0	1	1	0	//Excellent Saint Crossbow
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	16	0	0	1	0	//Excellent Black Dragon Helm
+7	17	0	0	1	0	//Excellent Dark Phoenix Helm
+7	18	0	0	1	0	//Excellent Grand Soul Helm
+7	27	0	0	1	0       //Excellent Dark Steel Mask
+7	19	0	0	1	0	//Excellent Divine Helm
+8	16	0	0	1	0	//Excellent Black Dragon Armor
+8	17	0	0	1	0	//Excellent Dark Phoenix Armor
+8	18	0	0	1	0	//Excellent Grand Soul Armor
+8	27	0	0	1	0	//Excellent Dark Steel Armork
+8	23	0	0	1	0	//Excellent Hurricane Armor
+8	19	0	0	1	0	//Excellent Divine Armor
+9	16	0	0	1	0	//Excellent Black Dragon Pants
+9	17	0	0	1	0	//Excellent Dark Phoenix Pants
+9	18	0	0	1	0	//Excellent Grand Soul Pants
+9	27	0	0	1	0	//Excellent Dark Steel Pants
+9	23	0	0	1	0	//Excellent Hurricane Pants
+9	19	0	0	1	0	//Excellent Divine Pants
+10	16	0	0	1	0	//Excellent Black Dragon Gloves
+10	17	0	0	1	0	//Excellent Dark Phoenix Gloves
+10	18	0	0	1	0	//Excellent Grand Soul Gloves
+10	27	0	0	1	0       //Excellent Dark Steel Gloves
+10	23	0	0	1	0	//Excellent Hurricane Gloves
+10	19	0	0	1	0	//Excellent Divine Gloves
+11	16	0	0	1	0	//Excellent Black Dragon Boots
+11	17	0	0	1	0	//Excellent Dark Phoenix Boots	
+11	18	0	0	1	0	//Excellent Grand Soul Boots	
+11	27	0	0	1	0	//Excellent Dark Steel Boots	
+11	23	0	0	1	0	//Excellent Hurricane Boots	
+11	19	0	0	1	0	//Excellent Divine Boots

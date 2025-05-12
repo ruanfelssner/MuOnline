@@ -1,0 +1,40 @@
+//=============================================================================================================
+//	EventName		DropZen		NA	NA 	NA 	  NA 		ItemDropRate	ExRate
+//=============================================================================================================
+1	
+	"Deark Elf"	        10000000	0	0	 0	  0		  100		  1000
+end
+
+//=================================================================================
+//Type Index  MinLevel MaxLevel Skill  Luck  AddOption  Exitemflag
+//=================================================================================
+2
+	7	29	0	0	0	1	1	0	//Dragon Knight Helm
+	7	30	0	0	0	1	1	0	//Venom Mist Helm
+	7	31	0	0	0	1	1	0	//Sylphid Ray Helm
+	7	33	0	0	0	1	1	0	//Sunlight Mask
+
+	8	29	0	0	0	1	1	0	//Dragon Knight Armor
+	8	30	0	0	0	1	1	0	//Venom Mist Armor
+	8	31	0	0	0	1	1	0	//Sylphid Ray Armor
+	8	32	0	0	0	1	1	0	//Volcano Armor
+	8	33	0	0	0	1	1	0	//Sunlight Armor
+
+	9	29	0	0	0	1	1	0	//Dragon Knight Pants
+	9	30	0	0	0	1	1	0	//Venom Mist Pants
+	9	31	0	0	0	1	1	0	//Sylphid Ray Pants
+	9	32	0	0	0	1	1	0	//Volcano Pants
+	9	33	0	0	0	1	1	0	//Sunlight Pants
+
+	10	29	0	0	0	1	1	0	//Dragon Knight Gloves
+	10	30	0	0	0	1	1	0	//Venom Mist Gloves
+	10	31	0	0	0	1	1	0	//Sylphid Ray Gloves
+	10	32	0	0	0	1	1	0	//Volcano Gloves
+	10	33	0	0	0	1	1	0	//Sunlight Gloves
+
+	11	29	0	0	0	1	1	0	//Dragon Knight Boots
+	11	30	0	0	0	1	1	0	//Venom Mist Boots
+	11	31	0	0	0	1	1	0	//Sylphid Ray Boots
+	11	32	0	0	0	1	1	0	//Volcano Boots
+	11	33	0	0	0	1	1	0	//Sunlight Boots
+end

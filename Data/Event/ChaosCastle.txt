@@ -1,0 +1,22 @@
+//Tempo de abertura - Duração do evento - Tempo para completar
+0
+5	10	1
+end
+
+//Drop
+//Item Drop Rate - Exc Item Drop Rate - Tempo para o item desaparecer
+1
+100	1200	0
+end
+
+//Time
+//Hora	Min
+2
+20	20
+23	20
+end
+
+//Probabilidade de Vencer
+3
+2	//(n/10000)
+end

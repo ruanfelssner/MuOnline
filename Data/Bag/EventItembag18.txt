@@ -1,0 +1,73 @@
+//=================================================================================
+//Index MapIndex DropFlag  MinMonsterLevel  MaxMonsterLevel
+//=================================================================================
+0
+0	0	0	1000	
+1	0	0	1000														
+2	0	0	1000															
+3	0	0	1000															
+4	0	0	1000															
+5	0	0	1000														
+6	0	0	1000															
+7	0	0	1000														
+8	0	0	1000															
+9	0	0	1000															
+10	0	0	1000															
+end																						
+																					
+//=========================================================================================================================																					
+//EventItemDropRate/1000
+//ItemDropRate/100  ExItemDropRate/1000
+//EventName 	DropZen     EventItemType  EventItemIndex   EventItemLevel  EventItemDropRate 	ItemDropRate ExItemDropRate
+//=========================================================================================================================												
+1
+"none"	1000000		0		0		0		0		100		1													
+end																					
+																					
+//=================================================================================
+//Type Index  MinLevel MaxLevel Skill  Luck  AddOption  Exitemflag
+//=================================================================================
+2																					
+        0	22	4    8   0	1	1	1	//Excellent Knight Blade
+	0	23	4    8   0	1	1	1	//Excellent Dragon Spear
+	2	14	4    8   0	1	1	1	//Excellent Dark Breaker
+	4	21	4    8   0	1	1	1	//Excellent Dark Reign Blade
+	5	12	4    8   0	1	1	1	//Excellent Great Lord Scepter
+
+	7	29	4    8   0      1	1	1	//Excellent Great Dragon Helm
+	7	30	4    8   0	1	1	1	//Excellent Dark Soul Helm
+	7	31	4    8   0	1	1	1	//Excellent Red Spirit Helm
+	7	32	4    8   0	1	1	1	//Excellent Dark Master Mask
+	7	33	4    8   0	1	1	1	//Excellent Dark Master Mask	
+	8	29	4    8   0      1	1	1	//Excellent Great Dragon Helm
+	8	30	4    8   0	1	1	1	//Excellent Dark Soul Helm
+	8	31	4    8   0	1	1	1	//Excellent Red Spirit Helm
+	8	32	4    8   0	1	1	1	//Excellent Dark Master Mask
+	8	33	4    8   0	1	1	1	//Excellent Dark Master Mask	
+	9	29	4    8   0	1	1	1	//Excellent Great Dragon Pants
+	9	30	4    8   0	1	1	1	//Excellent Dark Soul Pants
+	9	31	4    8   0	1	1	1	//Excellent Hurricane Pants
+	9	32	4    8   0	1	1	1	//Excellent Red Spirit Pants
+	9	33	4    8   0	1	1	1	//Excellent Dark Master Pants
+	10	29	4    8   0	1	1	1	//Excellent Great Dragon Gloves
+	10	30	4    8   0	1	1	1	//Excellent Dark Soul Gloves
+	10	31	4    8   0	1	1	1	//Excellent Hurricane Gloves
+	10	32	4    8   0	1	1	1	//Excellent Red Spirit Gloves
+	10	33	4    8   0	1	1	1	//Excellent Dark Master Gloves
+	11	29	4    8   0 	1	1	1	//Excellent Great Dragon Boots
+	11	30	4    8   0	1	1	1	//Excellent Dark Soul Boots
+	11	31	4    8   0	1	1	1	//Excellent Hurricane Boots
+	11	32	4    8   0	1	1	1	//Excellent Red Spirit Boots
+	11	33	4    8   0	1	1	1	//Excellent Dark Master Boots
+	8 	23 	7    11   0     1	1	1	//Hurricane Armor
+	8 	24 	7    11   0	1	1	1	//Nature Armor
+	8 	21 	7    11   0	1	1	1	//Red Phoenix Armor
+	8 	22	7    11   0	1	1	1	//Dark Soul Armor
+	8 	28	7    11   0	1	1	1	//Dark Master Armor
+	13	30	4    7   0	1	1	0	//Cape of Lord
+	14 	13 	0    0 	 0 	0       0       0	//Jewel of Bless
+	14 	16 	0    0 	 0 	0       0       0	//Jewel of Bless
+	14 	22 	0    0 	 0 	0       0       0	//Jewel of Bless
+	14 	14 	0    0 	 0 	0       0       0	//Jewel of Bless
+	14 	41 	0    0   0      0       0	0	//Gemstone
+end			

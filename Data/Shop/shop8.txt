@@ -1,0 +1,37 @@
+// Zienna, à mercante
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption | Item Name
+//=========================================================================================================================== 
+
+	7	27	9	0	0	1	1	// Dark Steel Mask
+	7	26	9	0	0	1	1	// Adamantine Heml
+	7	25	9	0	0	1	1	// Light Plate Heml
+	7	28	9	0	0	1	1	// Dark Master Heml
+
+	8	27	9	0	0	1	1	// Dark Steel Armor
+	8	26	9	0	0	1	1	// Adamantine Armor
+	8	25	9	0	0	1	1	// Light Plater Armor
+	8	28	9	0	0	1	1	// Dark Master Armor
+
+	10	27	9	0	0	1	1	// Dark Steel Gloves
+	10	26	9	0	0	1	1	// Adamantine Gloves
+	10	25	9	0	0	1	1	// Light Plate Gloves
+	10	28	9	0	0	1	1	// Dark Master Gloves
+
+	9	27	9	0	0	1	1	// Dark Steel Pants
+	9	26	9	0	0	1	1	// Adamantine Pants
+	9	25	9	0	0	1	1	// Light Plate Pants
+	9	28	9	0	0	1	1	// Dark Master Pants
+
+	11	27	9	0	0	1	1	// Dark Steel Boots
+	11	26	9	0	0	1	1	// Adamantine Boots
+	11	25	9	0	0	1	1	// Light Plate Boots
+	11	28	9	0	0	1	1	// Dark Master Boots
+
+        12      21      0       0       0       0       0	// FireBrust
+	12      22      0       0       0       0       0	// Summon
+	12      23      0       0       0       0       0	// Critical Damage
+	12      24      0       0       0       0       0	// Electric Spark
+	12      35      0       0       0       0       0	// Fire Scream
+end

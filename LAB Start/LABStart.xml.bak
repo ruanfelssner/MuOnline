@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Processes>
+  <Process Run="True" Delay="3000" Path="C:\MuServer\DataServer\DataServer.exe" Parameters="55960 1" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\JoinServer\JoinServer.exe" Parameters="/p55970 /ca127.0.0.1 /cp55557" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\ConnectServer\ConnectServer.exe" Parameters="" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\ExDB\Exdb.exe" Parameters="127.0.0.1" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\ChatServer\ChatServer.exe" Parameters="127.0.0.1" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\EventServer\EventServer.exe" Parameters="" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\RankingServer\RankingServer.exe" Parameters="" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\CashShopServer\CashShopServer.exe" Parameters="/p55821" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\GameServer\GameServer.exe" Parameters="127.0.0.1 55970 127.0.0.1 55960  55901" />
+  <Process Run="True" Delay="3000" Path="C:\MuServer\GameServer_CS\GameServerCS.exe" Parameters="127.0.0.1 55970 127.0.0.1 55960 55919" />
+</Processes>

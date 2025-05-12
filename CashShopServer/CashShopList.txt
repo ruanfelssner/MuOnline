@@ -1,0 +1,404 @@
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+;      Group     Index     Amount     Time     Category     Type     BuyType     Sellhow     Price     Name
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// - Buffs
+
+       13	 43	   0          1440     0            0        0           1           100       // Seal of Ascension
+       13	 44	   0          1440     0	    0        0           1           100       // Seal of Wealth
+       13	 45	   0          1440     0	    0        0           1           100       // Seal of Sustenance
+
+       14	 78	   0          43200    0	    0        0           1           100       // Leap of Strength
+       14	 79	   0          43200    0	    0        0           1           100       // Leap of Agility
+       14	 80	   0          43200    0	    0        0           1           100       // Leap of Health
+       14	 81	   0          43200    0	    0        0           1           100       // Leap of Energy
+       14	 82	   0          43200    0	    0        0           1           100       // Leap of 5ontrol
+       14    	 72	   0	      43200    0	    0        0           1           100       // Scroll of Quickness
+       14    	 73	   0	      43200    0	    0        0           1           100       // Scroll of Defense
+       14    	 74	   0	      43200    0	    0        0           1           100       // Scroll of Wrath
+       14    	 75	   0	      43200    0	    0        0           1           100       // Scroll of Wizardry
+       14    	 76	   0	      43200    0	    0        0           1           100       // Scroll of Health
+       14    	 77	   0	      43200    0	    0        0           1           100       // Scroll of Mana
+
+// - Swords
+
+	0	 1	   0          0        1	    0        0           0           5	       // Short Sword
+	0	 2	   0          0        1	    0        0           0           10	       // Rapier
+	0	 3	   0          0        1	    0        0           0           15        // Katana
+	0	 4	   0          0        1	    0        0           0           15	       // Sword of Assassin
+	0	 5	   0          0        1	    0        0           0           15	       // Blade
+	0	 6	   0          0        1	    0        0           0           15	       // Gladius
+	0	 7	   0          0        1	    0        0           0           15	       // Falchion
+	0	 8	   0          0        1	    0        0           0           15        // Serpent Sword
+	0	 9	   0          0        1	    0        0           0           15	       // Sword of Salamander
+	0	 10	   0          0        1	    0        0           0           15	       // Light Saber
+	0	 11	   0          0        1	    0        0           0           20	       // Legendary Sword
+	0	 12	   0          0        1	    0        0           0           20	       // Heliacal Sword
+	0	 13	   0          0        1	    0        0           0           20	       // Double Blade
+	0	 14	   0          0        1	    0        0           0           20	       // Lighting Sword
+	0	 15	   0          0        1	    0        0           0           25	       // Giant Sword
+	0	 16	   0          0        1	    0        0           0           30	       // Sword of Destruction
+	0	 17	   0          0        1	    0        0           0           35	       // Dark Breaker
+	0	 18	   0          0        1	    0        0           0           35	       // Thunder Blade
+	0	 19	   0          0        1	    0        0           0           40	       // Divine Sword of Archangel
+	0	 20	   0          0        1	    0        0           0           50	       // Knight Blade
+	0	 21	   0          0        1	    0        0           0           50	       // Dark Reign Blade
+	0	 22	   0          0        1	    0        0           0           80	       // Bone Blade
+	0	 23	   0          0        1	    0        0           0           80	       // Explosion Blade
+	0	 24	   0          0        1	    0        0           0           70	       // Daybreak
+	0	 25	   0          0        1	    0        0           0           70	       // Sword Dancer
+	0	 31	   0          0        1	    0        0           0           50	       // Rune Blade
+
+// - Axes
+
+	1	 0	   0          0        1	    0        0           0           5	       // Small Axe
+	1	 1	   0          0        1	    0        0           0           5	       // Hand Axe
+	1	 2	   0          0        1	    0        0           0           5	       // Double axe
+	1	 3	   0          0        1	    0        0           0           5	       // Tomahawk
+	1	 4	   0          0        1	    0        0           0           5	       // Elven Axe
+	1	 5	   0          0        1	    0        0           0           5	       // Battle Axe
+	1	 6	   0          0        1	    0        0           0           5	       // Nikea Axe
+	1	 7	   0          0        1	    0        0           0           5	       // Larkan Axe
+	1	 8	   0          0        1	    0        0           0           10	       // Crescent Axe
+
+// - Scepters
+
+	2	 0	   0          0        1	    0        0           0           5	       // Mace
+	2	 1	   0          0        1	    0        0           0           5	       // Morning Star
+	2	 2	   0          0        1	    0        0           0           5	       // Flail
+	2	 3	   0          0        1	    0        0           0           5	       // Great Hammer
+	2	 4	   0          0        1	    0        0           0           5	       // Crystal morning Star
+	2	 5	   0          0        1	    0        0           0           5	       // Crystal Sword
+	2	 6	   0          0        1	    0        0           0           30	       // Chaos Dragon axe
+	2	 7	   0          0        1	    0        0           0           10	       // Elemental Mace
+	2	 8	   0          0        1	    0        0           0           10	       // Batle Scepter
+	2	 9	   0          0        1	    0        0           0           20	       // Master Scepter
+	2	 10	   0          0        1	    0        0           0           25	       // Great Scepter
+	2	 11	   0          0        1	    0        0           0           25	       // Lord Scepter
+	2	 12	   0          0        1	    0        0           0           30	       // Great Lord Scepter
+	2	 13	   0          0        1	    0        0           0           35	       // Divine Scepter of Archangel
+	2	 14	   0          0        1	    0        0           0           50	       // Soleil Sceptor
+	2	 15	   0          0        1	    0        0           0           60	       // Shining Scepter
+
+// - Spears
+
+	3	 0	   0          0        1	    0        0           0           10	       // Light Spear
+	3	 1	   0          0        1	    0        0           0           10	       // Spear
+	3	 2	   0          0        1	    0        0           0           10	       // Dragon Lance
+	3	 3	   0          0        1	    0        0           0           10	       // Giant Trident
+	3	 4	   0          0        1	    0        0           0           10	       // Serpent Spear
+	3	 5	   0          0        1	    0        0           0           10	       // Double Poleaxe
+	3	 6	   0          0        1	    0        0           0           20	       // Halberd
+	3	 7	   0          0        1	    0        0           0           20	       // Berdysh
+	3	 8	   0          0        1	    0        0           0           20	       // Great Scythe
+	3	 9	   0          0        1	    0        0           0           25	       // Bill of Balrog
+	3	 10	   0          0        1	    0        0           0           25	       // Dragon Spear
+
+// - Bows & 5rossbows
+
+	4	 0	   0          0        2	    0        0           0           5	       // Short Bow
+	4	 1	   0          0        2	    0        0           0           1	       // Bow
+	4	 2	   0          0        2	    0        0           0           10	       // Elven Bow
+	4	 3	   0          0        2	    0        0           0           10	       // Batlle Bow
+	4	 4	   0          0        2	    0        0           0           15	       // Tiger Bow
+	4	 5	   0          0        2	    0        0           0           20	       // Silver Bow
+	4	 6	   0          0        2	    0        0           0           30	       // Chaos Nature Bow
+	4	 8	   0          0        2	    0        0           0           10	       // Crossbow
+	4	 9	   0          0        2	    0        0           0           10	       // Golden 5rossbow
+	4	 10	   0          0        2	    0        0           0           10	       // Arquebus
+	4	 11	   0          0        2	    0        0           0           10	       // Light Crossbow
+	4	 12	   0          0        2	    0        0           0           10	       // Serpent Crossbow
+	4	 13	   0          0        2	    0        0           0           10	       // Bluewing Crossbow
+	4	 14	   0          0        2	    0        0           0           15	       // Aquagold Crossbow
+	4	 16	   0          0        2	    0        0           0           25	       // Saint Crossbow
+	4	 17	   0          0        2	    0        0           0           30	       // Celestial Bow
+	4	 18	   0          0        2	    0        0           0           30	       // Divine Crossbow of Ar5hangel
+	4	 19	   0          0        2	    0        0           0           35	       // Great Reign Crossbow
+	4	 20	   0          0        2	    0        0           0           40	       // Arrow Viper Bow
+	4	 21	   0          0        2	    0        0           0           45	       // Sylph Wind Bow
+	4	 22	   0          0        2	    0        0           0           50	       // Albatross Bow
+
+// - Staffs
+
+	5	 0	   0          0        3	    0        0           0           5	       // Skull Staff
+	5	 1	   0          0        3	    0        0           0           5	       // Angelic Staff
+	5	 2	   0          0        3	    0        0           0           5	       // Serpent Staff
+	5	 3	   0          0        3	    0        0           0           5	       // Thunder Staff
+	5	 4	   0          0        3	    0        0           0           10	       // Gorgon Staff
+	5	 5	   0          0        3	    0        0           0           20	       // Legendary Staff
+	5	 6	   0          0        3	    0        0           0           20	       // Staff of Ressurection
+	5	 7	   0          0        3	    0        0           0           30	       // Chaos Lighting staff
+	5	 8	   0          0        3	    0        0           0           25	       // Staff of Destruction
+	5	 9	   0          0        3	    0        0           0           30	       // Dragon Soul Staff
+	5	 10	   0          0        3	    0        0           0           40	       // Divine Staff Of Archangel
+	5	 11	   0          0        3	    0        0           0           50	       // Staff of Kundun
+	5	 12	   0          0        3	    0        0           0           60	       // Grand Viper Staff
+	5	 13	   0          0        3	    0        0           0           80	       // Platina Staff
+
+// - Shields 
+
+	6	 0	   0          0        4	    0        0           0           5	       // Small Shield
+	6	 1	   0          0        4	    0        0           0           10	       // Horn Shield
+	6	 2	   0          0        4	    0        0           0           10	       // Kite Shield
+	6	 3	   0          0        4	    0        0           0           10	       // Elven Shield
+	6	 4	   0          0        4	    0        0           0           10	       // Buckler
+	6	 5	   0          0        4	    0        0           0           10	       // Dragon Slayer Shield
+	6	 6	   0          0        4	    0        0           0           15	       // Skull Shield
+	6	 7	   0          0        4	    0        0           0           15	       // Spiked Shield
+	6	 8	   0          0        4	    0        0           0           15	       // Tower Shield
+	6	 9	   0          0        4	    0        0           0           20	       // Plate Shield
+	6	 10	   0          0        4	    0        0           0           20	       // Large Round Shield
+	6	 11	   0          0        4	    0        0           0           20	       // Serpent Shield
+	6	 12	   0          0        4	    0        0           0           30	       // Bronze Shield
+	6	 13	   0          0        4	    0        0           0           40	       // Dragon Shield
+	6	 14	   0          0        4	    0        0           0           40	       // Legendary Shield
+	6	 15	   0          0        4	    0        0           0           40	       // Grand Soul Shield
+	6	 16	   0          0        4	    0        0           0           30	       // Elemental Shield
+
+// - Helms
+
+	7	 0	   0          0        5	    0        0           0           10	       // Bronze Helm
+	7	 1	   0          0        5	    0        0           0           10	       // Dragon Helm
+	7	 2	   0          0        5	    0        0           0           10	       // Pad Helm
+	7	 3	   0          0        5	    0        0           0           15	       // Legendary Helm
+	7	 4	   0          0        5	    0        0           0           15	       // Bone Helm
+	7	 5	   0          0        5	    0        0           0           15	       // Leather Helm
+	7	 6	   0          0        5	    0        0           0           15	       // Scale Helm
+	7	 7	   0          0        5	    0        0           0           15	       // Sphinx Mask
+	7	 8	   0          0        5	    0        0           0           15	       // Brass Helm
+	7	 9	   0          0        5	    0        0           0           15	       // Plate Helm
+	7	 10	   0          0        5	    0        0           0           15	       // Vine Helm
+	7	 11	   0          0        5	    0        0           0           15	       // Silk Helm
+	7	 12	   0          0        5	    0        0           0           15	       // Wind Helm
+	7	 13	   0          0        5	    0        0           0           15	       // Spirit Helm
+	7	 14	   0          0        5	    0        0           0           15	       // Guardian Helm
+	7	 16	   0          0        5	    0        0           0           20	       // Black Dragon Helm
+	7	 17	   0          0        5	    0        0           0           20	       // Dark Phoenix Helm
+	7	 18	   0          0        5	    0        0           0           20	       // Grand Soul Helm
+	7	 19	   0          0        5	    0        0           0           20	       // Divine Helm
+	7	 21	   0          0        5	    0        0           0           25	       // Great Dragon Helm
+	7	 22	   0          0        5	    0        0           0           25	       // Dark Soul Helm
+	7	 24	   0          0        5	    0        0           0           25        // Red Spirit Helm
+	7	 25	   0          0        5	    0        0           0           25	       // Light Plate Mask
+	7	 26	   0          0        5	    0        0           0           20	       // Adamantine Mask
+	7	 27	   0          0        5	    0        0           0           20	       // Dark Steel Mask
+	7	 28	   0          0        5	    0        0           0           25	       // Dark Master Mask
+	7	 29	   0          0        5	    0        0           0           30	       // Dragon Knight Helm
+	7	 30	   0          0        5	    0        0           0           30	       // Venom Mist Helm
+	7	 31	   0          0        5	    0        0           0           30	       // Sylphid Ray Helm
+	7	 33	   0          0        5	    0        0           0           30	       // Sunlight Mask
+	7	 34	   0          0        5	    0        0           0           30	       // Ashcrow Helm
+	7	 35	   0          0        5	    0        0           0           35	       // Eclipse Helm
+	7	 36	   0          0        5	    0        0           0           35	       // Iris Helm
+	7	 38	   0          0        5	    0        0           0           35	       // Glorious Mask
+
+// - Armors
+
+	8	 0	   0          0        6	    0        0           0           10	       // Bronze Armors
+	8	 1	   0          0        6	    0        0           0           10	       // Dragon Armors
+	8	 2	   0          0        6	    0        0           0           10	       // Pad Armors
+	8	 3	   0          0        6	    0        0           0           15	       // Legendary Armors
+	8	 4	   0          0        6	    0        0           0           15	       // Bone Armors
+	8	 5	   0          0        6	    0        0           0           15	       // Leather Armors
+	8	 6	   0          0        6	    0        0           0           15	       // Scale Armors
+	8	 7	   0          0        6	    0        0           0           15	       // Sphinx Armors
+	8	 8	   0          0        6	    0        0           0           15        // Brass Armors
+	8	 9	   0          0        6	    0        0           0           15	       // Plate Armors
+	8	 10	   0          0        6	    0        0           0           15	       // Vine Armors
+	8	 11	   0          0        6	    0        0           0           15	       // Silk Armors
+	8	 12	   0          0        6	    0        0           0           15	       // Wind Armors
+	8	 13	   0          0        6	    0        0           0           15        // Spirit Armors
+	8	 14	   0          0        6	    0        0           0           15	       // Guardian Armors
+	8	 15	   0          0        6	    0        0           0           15	       // Storm 6row Armor
+	8	 16	   0          0        6	    0        0           0           20	       // Black Dragon Armors
+	8	 17	   0          0        6	    0        0           0           20	       // Dark Phoenix Armors
+	8	 18	   0          0        6	    0        0           0           20	       // Grand Soul Armors
+	8	 19	   0          0        6	    0        0           0           20	       // Divine Armors
+	8	 20	   0          0        6	    0        0           0           20	       // Thunder Hawk Armor
+	8	 21	   0          0        6	    0        0           0           25	       // Great Dragon Armors
+	8	 22	   0          0        6	    0        0           0           25	       // Dark Soul Armors
+	8	 23	   0          0        6	    0        0           0           25	       // Hurricane Armor
+	8	 24	   0          0        6	    0        0           0           25	       // Red Spirit Armors
+	8	 25	   0          0        6	    0        0           0           25	       // Light Plate Armors
+	8	 26	   0          0        6	    0        0           0           20	       // Adamantine Armors
+	8	 27	   0          0        6	    0        0           0           20	       // Dark Steel Armors
+	8	 28	   0          0        6	    0        0           0           25	       // Dark Master Armors
+	8	 29	   0          0        6	    0        0           0           30	       // Dragon Knight Armors
+	8	 30	   0          0        6	    0        0           0           30	       // Venom Mist Armors
+	8	 31	   0          0        6	    0        0           0           30	       // Sylphid Ray Armors
+	8	 32	   0          0        6	    0        0           0           30	       // Volcano Armor
+	8	 33	   0          0        6	    0        0           0           30	       // Sunlight Armors
+	8	 34	   0          0        6	    0        0           0           30	       // Ashcrow Armors
+	8	 35	   0          0        6	    0        0           0           35	       // Eclipse Armors
+	8	 36	   0          0        6	    0        0           0           35	       // Iris Armors
+	8	 37	   0          0        6	    0        0           0           35	       // Valiant Armor
+	8	 38	   0          0        6	    0        0           0           35	       // Glorious Armors
+
+// - Pants
+
+	9	 0	   0          0        7	    0        0           0           10	       // Bronze Pantss
+	9	 1	   0          0        7	    0        0           0           10	       // Dragon Pantss
+	9	 2	   0          0        7	    0        0           0           10	       // Pad Pantss
+	9	 3	   0          0        7	    0        0           0           15	       // Legendary Pantss
+	9	 4	   0          0        7	    0        0           0           15	       // Bone Pantss
+	9	 5	   0          0        7	    0        0           0           15	       // Leather Pantss
+	9	 6	   0          0        7	    0        0           0           15	       // Scale Pantss
+	9	 7	   0          0        7	    0        0           0           15	       // Sphinx Pantss
+	9	 8	   0          0        7	    0        0           0           15	       // Brass Pantss
+	9	 9	   0          0        7	    0        0           0           15	       // Plate Pantss
+	9	 10	   0          0        7	    0        0           0           15	       // Vine Pantss
+	9	 11	   0          0        7	    0        0           0           15	       // Silk Pantss
+	9	 12	   0          0        7	    0        0           0           15	       // Wind Pantss
+	9	 13	   0          0        7	    0        0           0           15	       // Spirit Pantss
+	9	 14	   0          0        7	    0        0           0           15	       // Guardian Pantss
+	9	 15	   0          0        7	    0        0           0           15	       // Storm 7row Pants
+	9	 16	   0          0        7	    0        0           0           20	       // Black Dragon Pantss
+	9	 17	   0          0        7	    0        0           0           20	       // Dark Phoenix Pantss
+	9	 18	   0          0        7	    0        0           0           20	       // Grand Soul Pantss
+	9	 19	   0          0        7	    0        0           0           20	       // Divine Pantss
+	9	 20	   0          0        7	    0        0           0           20	       // Thunder Hawk Pants
+	9	 21	   0          0        7	    0        0           0           25	       // Great Dragon Pantss
+	9	 22	   0          0        7	    0        0           0           25	       // Dark Soul Pantss
+	9	 23	   0          0        7	    0        0           0           25	       // Hurricane Pants
+	9	 24	   0          0        7	    0        0           0           25	       // Red Spirit Pantss
+	9	 25	   0          0        7	    0        0           0           25	       // Light Plate Pantss
+	9	 26	   0          0        7	    0        0           0           20	       // Adamantine Pantss
+	9	 27	   0          0        7	    0        0           0           20	       // Dark Steel Pantss
+	9	 28	   0          0        7	    0        0           0           25	       // Dark Master Pantss
+	9	 29	   0          0        7	    0        0           0           30	       // Dragon Knight Pantss
+	9	 30	   0          0        7	    0        0           0           30	       // Venom Mist Pantss
+	9	 31	   0          0        7	    0        0           0           30	       // Sylphid Ray Pantss
+	9	 32	   0          0        7	    0        0           0           30	       // Volcano Pants
+	9	 33	   0          0        7	    0        0           0           30	       // Sunlight Pantss
+	9	 34	   0          0        7	    0        0           0           30	       // Ashcrow Pantss
+	9	 35	   0          0        7	    0        0           0           35	       // Eclipse Pantss
+	9	 36	   0          0        7	    0        0           0           35	       // Iris Pantss
+	9	 37	   0          0        7	    0        0           0           35	       // Valiant Pants
+	9	 38	   0          0        7	    0        0           0           35	       // Glorious Pantss
+
+// - Gloves
+
+	10	 0	   0          0        8	    0        0           0           10	       // Bronze Gloves
+	10	 1	   0          0        8	    0        0           0           10	       // Dragon Gloves
+	10	 2	   0          0        8	    0        0           0           10	       // Pad Gloves
+	10	 3	   0          0        8	    0        0           0           15	       // Legendary Gloves
+	10	 4	   0          0        8	    0        0           0           15	       // Bone Gloves
+	10	 5	   0          0        8	    0        0           0           15	       // Leather Gloves
+	10	 6	   0          0        8	    0        0           0           15	       // Scale Gloves
+	10	 7	   0          0        8	    0        0           0           15	       // Sphinx Gloves
+	10	 8	   0          0        8	    0        0           0           15	       // Brass Gloves
+	10	 9	   0          0        8	    0        0           0           15	       // Plate Gloves
+	10	 10	   0          0        8	    0        0           0           15	       // Vine Gloves
+	10	 11	   0          0        8	    0        0           0           15	       // Silk Gloves
+	10	 12	   0          0        8	    0        0           0           15	       // Wind Gloves
+	10	 13	   0          0        8	    0        0           0           15	       // Spirit Gloves
+	10	 14	   0          0        8	    0        0           0           15	       // Guardian Gloves
+	10	 15	   0          0        8	    0        0           0           20	       // Storm 8row Pants
+	10	 16	   0          0        8	    0        0           0           20	       // Black Dragon Gloves
+	10	 17	   0          0        8	    0        0           0           20	       // Dark Phoenix Gloves
+	10	 18	   0          0        8	    0        0           0           20	       // Grand Soul Gloves
+	10	 19	   0          0        8	    0        0           0           20	       // Divine Gloves
+	10	 20	   0          0        8	    0        0           0           20	       // Thunder Hawk Pants
+	10	 21	   0          0        8	    0        0           0           25	       // Great Dragon Gloves
+	10	 22	   0          0        8	    0        0           0           25	       // Dark Soul Gloves
+	10	 23	   0          0        8	    0        0           0           25	       // Hurricane Pants
+	10	 24	   0          0        8	    0        0           0           25	       // Red Spirit Gloves
+	10	 25	   0          0        8	    0        0           0           25	       // Light Plate Gloves
+	10	 26	   0          0        8	    0        0           0           20	       // Adamantine Gloves
+	10	 27	   0          0        8	    0        0           0           20	       // Dark Steel Gloves
+	10	 28	   0          0        8	    0        0           0           25	       // Dark Master Gloves
+	10	 29	   0          0        8	    0        0           0           30	       // Dragon Knight Gloves
+	10	 30	   0          0        8	    0        0           0           30	       // Venom Mist Gloves
+	10	 31	   0          0        8	    0        0           0           30	       // Sylphid Ray Gloves
+	10	 32	   0          0        8	    0        0           0           30	       // Volcano Pants
+	10	 33	   0          0        8	    0        0           0           30	       // Sunlight Gloves
+	10	 34	   0          0        8	    0        0           0           30	       // Ashcrow Gloves
+	10	 35	   0          0        8	    0        0           0           35	       // Eclipse Gloves
+	10	 36	   0          0        8	    0        0           0           35	       // Iris Gloves
+	10	 37	   0          0        8	    0        0           0           35	       // Valiant Pants
+	10	 38	   0          0        8	    0        0           0           35	       // Glorious Gloves
+
+// - Boots
+
+	11	 0	   0          0        9	    0        0           0           10	       // Bronze Boots
+	11	 1	   0          0        9	    0        0           0           10	       // Dragon Boots
+	11	 2	   0          0        9	    0        0           0           10	       // Pad Boots
+	11	 3	   0          0        9	    0        0           0           15	       // Legendary Boots
+	11	 4	   0          0        9	    0        0           0           15	       // Bone Boots
+	11	 5	   0          0        9	    0        0           0           15	       // Leather Boots
+	11	 6	   0          0        9	    0        0           0           15	       // Scale Boots
+	11	 7	   0          0        9	    0        0           0           15	       // Sphinx Boots
+	11	 8	   0          0        9	    0        0           0           15	       // Brass Boots
+	11	 9	   0          0        9	    0        0           0           15	       // Plate Boots
+	11	 10	   0          0        9	    0        0           0           15	       // Vine Boots
+	11	 11	   0          0        9	    0        0           0           15	       // Silk Boots
+	11	 12	   0          0        9	    0        0           0           15	       // Wind Boots
+	11	 13	   0          0        9	    0        0           0           15	       // Spirit Boots
+	11	 14	   0          0        9	    0        0           0           15	       // Guardian Boots
+	11	 15	   0          0        9	    0        0           0           20	       // Storm 9row Pants
+	11	 16	   0          0        9	    0        0           0           20	       // Black Dragon Boots
+	11	 17	   0          0        9	    0        0           0           20	       // Dark Phoenix Boots
+	11	 18	   0          0        9	    0        0           0           20	       // Grand Soul Boots
+	11	 19	   0          0        9	    0        0           0           20	       // Divine Boots
+	11	 20	   0          0        9	    0        0           0           20	       // Thunder Hawk Pants
+	11	 21	   0          0        9	    0        0           0           25	       // Great Dragon Boots
+	11	 22	   0          0        9	    0        0           0           25	       // Dark Soul Boots
+	11	 23	   0          0        9	    0        0           0           25	       // Hurricane Boots
+	11	 24	   0          0        9	    0        0           0           25	       // Red Spirit Boots
+	11	 25	   0          0        9	    0        0           0           25	       // Light Plate Boots
+	11	 26	   0          0        9	    0        0           0           20	       // Adamantine Boots
+	11	 27	   0          0        9	    0        0           0           20	       // Dark Steel Boots
+	11	 28	   0          0        9	    0        0           0           25	       // Dark Master Boots
+	11	 29	   0          0        9	    0        0           0           30	       // Dragon Knight Boots
+	11	 30	   0          0        9	    0        0           0           30	       // Venom Mist Boots
+	11	 31	   0          0        9	    0        0           0           30	       // Sylphid Ray Boots
+	11	 32	   0          0        9	    0        0           0           30	       // Volcano Pants
+	11	 33	   0          0        9	    0        0           0           30	       // Sunlight Boots
+	11	 34	   0          0        9	    0        0           0           30	       // Ashcrow Boots
+	11	 35	   0          0        9	    0        0           0           35	       // Eclipse Boots
+	11	 36	   0          0        9	    0        0           0           35	       // Iris Boots
+	11	 37	   0          0        9	    0        0           0           35	       // Valiant Pants
+	11	 38	   0          0        9	    0        0           0           35	       // Glorious Boots
+
+// - Wings
+
+	12	 0	   0          0        10	    0        0           0           1000      // Wing of Elf
+	12	 1	   0          0        10	    0        0           0           1000      // Wing of Heaven
+	12	 2	   0          0        10	    0        0           0           1000      // Wing of Satan
+	12	 3	   0          0        10	    0        0           0           1000      // Wing of Spirits
+	12	 4	   0          0        10	    0        0           0           1000      // Wing of Soul
+	12	 5	   0          0        10	    0        0           0           1000      // Wing of Dragon
+	13	 30	   0          0        10	    0        0           0           1000      // Cape of Lord
+	12	 6	   0          0        10	    0        0           0           1000      // Wing of Darkness
+	12	 36	   0          0        10	    0        0           0           2000      // Wing of Storm
+	12	 37	   0          0        10	    0        0           0           2000      // Wing of Eternal
+	12	 38	   0          0        10	    0        0           0           2000      // Wing of Illusion
+	12	 39	   0          0        10	    0        0           0           2000      // Wing of Doom
+	12	 40	   0          0        10	    0        0           0           2000      // Mantle of Monarch
+
+// - Acessórios
+
+	13	 8	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 9	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 12	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 13	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 21	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 22	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 23	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 24	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 25	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 26	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 27	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+	13	 28	   0          0        11	    0        0           0           20	       // RINGS E PENDANTS
+
+// - Outros
+
+	14	 84	   0          0        12	    0        0           0           50	       // Jewel of Excelent
+	14	 85	   0          0        12	    0        0           0           50	       // Jewel of Level
+	14	 86	   0          0        12	    0        0           0           50	       // Jewel of Luck
+	14	 87	   0          0        12	    0        0           0           50	       // Jewel of Option
+	13    	 46	   0	      0	       12	    0	     0	         0	     50        // Devil Square Ticket
+	13    	 47	   0	      0	       12	    0	     0	         0	     50        // Blood Castle Ticket
+	13    	 48	   0	      0	       12	    0	     0	         0	     50        // Kalima Ticket
+	14    	 53	   0	      0	       12	    0	     0	         0	     50        // Talisman of Luck
+	14    	 54	   0	      0	       12	    0	     0	         0	     50        // Chaos Card

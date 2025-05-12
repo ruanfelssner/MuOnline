@@ -1,0 +1,16 @@
+//===========================================================================
+//	[Type]	[Index]	[Level]	[Skill]	[Exc]	[Option]	[Name]
+//===========================================================================
+	13	8	6	0	1	0		 // Ring of Ice
+	13	9	6	0	1	0		 // Ring of Poison
+	13	22	6	0	1	0		 // Ring of Earth
+	13	23	6	0	1	0		 // Ring of Wind
+	13	24	6	0	1	0		 // Ring of Magic
+	13	9	6	0	1	0		 // Ring of Poison
+	13	12	0	0	1	0		 // Pendant of Lighting
+	13	13	0	0	1	0		 // Pendant of Fire
+	13	25	0	0	1	0		 // Pendant of Ice
+	13	26	0	0	1	0		 // Pendant of Wind
+	13	27	0	0	1	0		 // Pendant of Water
+	13	28	0	0	1	0		 // Pendant of Ability
+end

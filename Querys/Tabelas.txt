@@ -1,0 +1,12 @@
+ALTER TABLE dbo.Character ADD Resets int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD ResetsMonth int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD ResetsWeek int NOT NULL DEFAULT 0 
+ALTER TABLE dbo.Character ADD ResetsDay int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD MResets int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD QuizEvent int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD DuelEvent int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD PegaEvent int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD SobreEvent int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD BossEvent int NOT NULL DEFAULT 0
+ALTER TABLE dbo.Character ADD DeathEvent int NOT NULL DEFAULT 0
+ALTER TABLE dbo.MEMB_INFO ADD Cash int NOT NULL DEFAULT 0

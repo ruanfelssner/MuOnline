@@ -1,0 +1,40 @@
+00:28:17 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+00:29:17 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+00:44:42 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+00:55:30 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+01:01:05 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+15:20:57 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+15:27:30 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+15:39:12 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'teste'
+15:39:14 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'teste'
+17:38:06 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'teste'
+18:10:44 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+18:11:50 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:28:41 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:36:00 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:38:03 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:39:03 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:40:56 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:43:02 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:43:28 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:44:16 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:44:29 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:44:43 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:46:31 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:47:01 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:47:18 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:58:23 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+18:58:55 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:05:38 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+19:11:01 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:11:04 - SELECT Resets from Character WHERE Name = 'ADM-Ruan'
+19:11:04 - UPDATE Character SET Resets = Resets + 1, ResetsDay = ResetsDay + 1, ResetsWeek = ResetsWeek + 1, ResetsMonth = ResetsMonth + 1 WHERE Name = 'ADM-Ruan'
+19:11:04 - UPDATE MEMB_INFO SET ItemCred = ItemCred + 1 WHERE memb___id = 'ruan'
+19:11:04 - [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'ItemCred'.k = ResetsWeek + 1, ResetsMonth = ResetsMonth + 1 WHERE Name = 'ADM-Ruan'
+19:18:40 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:20:38 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:23:32 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:29:47 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;
+19:30:12 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:30:26 - SELECT Vip FROM MEMB_INFO WHERE memb___id = 'ruan'
+19:40:40 - DRIVER=SQL Server;Server=127.0.0.1;DATABASE=MuOnline;UID=sa;PWD=ru180395US@;

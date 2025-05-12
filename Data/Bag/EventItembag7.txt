@@ -1,0 +1,21 @@
+//===========================================================================
+//	[Type]	[Index]	[Level]	[Skill]	[Exc]	[Option]	[Name]
+//===========================================================================
+	12	7	0	0	0	0		 // Orb of Twisting Slash
+	12	8	0	0	0	0		 // Orb of Healing
+	12	9	0	0	0	0		 // Orb of Defense Improvement
+	12	10	0	0	0	0		 // Orb of Offense Improvement
+	12	11	0	0	0	0		 // Orb of Summoning
+	12	11	0	0	0	0		 // Orb of Summoning
+	12	11	0	0	0	0		 // Orb of Summoning
+	12	11	0	0	0	0		 // Orb of Summoning
+	12	11	0	0	0	0		 // Orb of Summoning
+	12	11	0	0	0	0		 // Orb of Summoning
+	12	12	0	0	0	0		 // Orb of Rageful Blow
+	12	13	0	0	0	0		 // Orb of Impaling
+	12	14	0	0	0	0		 // Orb of Life Swell
+	12	16	0	0	0	0		 // Orb of Blood Attack
+	12	17	0	0	0	0		 // Orb of Penetration
+	12	18	0	0	0	0		 // Orb of Ice Arrow
+	12	19	0	0	0	0		 // Orb of Blow
+end

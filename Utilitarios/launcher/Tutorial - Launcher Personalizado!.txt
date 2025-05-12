@@ -1,0 +1,180 @@
+Launcher Personalizado
+
+
+Requerimentos Básicos: Conhecimentos com qualquer editor de figuras (até mesmo o paint já está valendo), e criatividade.
+
+Material: Precisaremos da seguinte lista de fotos:
+
+- Uma janela principal para o launcher;
+- Uma janela de opções para o launcher;
+- Um botão Fechar
+- Um botão Fechar Pressionado
+- Um botão Conectar
+- Um botão Conectar Pressionado
+- Um botão Aplicar
+- Um botão Aplicar Pressionado
+- Um botão Opções
+- Um botão Opções Pressionado
+- Um botão Update (mesmo que seja uma imagem nula, pois não será utilizado)
+- Um botão Update Pressionado
+
+
+Procedimento: Bom, antes de montar um launcher, creio que vocês já tenham utilizado o Builder para criar launchers básicos. E por isso, na janela principal, irei marcar e preencher os seguintes dados básicos de um launcher.
+
+
+
+MU LAUNCHER OPTIONS:
+
+Enable Browser - Exibir página no launcher
+Browser URL - Endereço da página a ser exibida
+
+Enable Options - Exibir botão de opções (janela/som...)
+Show Server Status - Exibir Status do Servidor (on/off)
+
+Name of Server - Nome de seu servidor
+Server Hostname/IP - IP ou DNS para se conectar ao seu servidor
+Server Port - Porta de seu Connect Server, normalmente 44405
+
+
+
+Agora a parte legal, onde informamos os dados para montar nosso skin do launcher. Acesse a aba SKIN no builder e continue o processo.
+
+SKIN:
+
+Use Custom Skin
+- Marcar esta opção para utilizar seu skin alternativo
+
+MAIN WINDOW
+- Configurações da Janela Principal de seu Launcher
+
+Color
+- Cor de fundo da janela, em meu caso vou deixar padrão. (black)
+
+Font Color
+- Cor da fonte utilizada, vou manter padrão também. (black)
+
+Main Window Background Bitmap e Main Window Region Bitmap
+- Figura utilizada como moldura de sua página principal do launcher. Nesse caso vou utilizar a muc_bkg.bmp editada para este propósito.
+
+Option Window Background Bitmap e Option Window Region Bitmap
+- Figura utilizada como moldura de sua página de opções do launcher. Nesse caso vou utilizar a muc_bkg_opt.bmp editada para este propósito.
+
+A partir de agora, é necessário indicar o posicionamento de botões e forms por sobre o launcher. Para indicar tais posicionamentos, utilizei um editor simples de figuras, e fui acertando o posicionamento dos itens aos poucos, até chegar a valores satisfatórios.
+
+Então a partir de agora, já irei passar os valores corretos para posicionamento, baseado nas fotos e textos que irei utilizar no launcher. Vale a pena logico realizar suas experiências por ai tambem.
+
+Close Button
+
+(Normal) muc_but_clo.bmp <--- "Normal" indica que este é o botão sem estar pressionado.
+(Down) muc_but_clo_dwn.bmp <--- "Down" indica que este é o botão com aspecto pressionado.
+(Left) 277
+(Top) 377
+
+Connect Button
+
+(Normal) muc_but_con.bmp
+(Down) muc_but_con_dwn.bmp
+(Left) 191
+(Top) 377
+
+Update Button - Ele não será visível, por isso utilizarei qualquer valor aqui.
+
+(Normal) muc_but_upd.bmp
+(Down) muc_but_con_upd.bmp
+(Left) 191
+(Top) 377
+
+Options Button
+
+(Normal) muc_but_opt.bmp
+(Down) muc_but_opt_dwn.bmp
+(Left) 106
+(Top) 377
+
+Browser Window - Janela web
+
+(Left) 8
+(Width) 433
+(Top) 55
+(height) 290
+
+Status Position - Posicao dos status do servidor.
+
+(Left) 8
+(Width) 433
+(Top) 348
+(height) 13
+
+OPTIONS WINDOW
+- Configurações da Janela de Opções de seu Launcher
+
+(Color) Black
+(Font Color) Black
+
+Close Button
+
+(Normal) muc_but_clo.bmp
+(Down) muc_but_clo_dwn.bmp
+(Left) 265
+(Top) 377
+
+Apply Button
+
+(Normal) muc_but_app.bmp
+(Down) muc_but_app_dwn.bmp
+(Left) 118
+(Top) 377
+
+(ID Text) Entre com o nome da conta para agilizar seu login.
+(Left) 77
+(Width) 300
+(Top) 43
+(height) 20
+
+(ID Box)
+(Left) 137
+(Width) 175
+(Top) 72
+(height) 20 
+
+(Resolution Text) Selecione a resolução de sua janela de jogo.
+(Left) 94
+(Width) 260
+(Top) 135
+(height) 20
+
+(640x480)
+(Top) 30
+(Left) 172
+
+(800x600)
+(Top) 130
+(Left) 172
+
+(1024x768)
+(Top) 230
+(Left) 172
+
+(1280x1204)
+(Top) 330
+(Left) 172
+
+(Sound Text) Selecione as opções abaixo para ligar/desligar som e música.
+(Left) 45
+(Width) 370
+(Top) 220
+(height) 20
+
+(Sound)
+(Left) 106
+(Top) 255
+
+(Music)
+(Left) 234
+(Top) 255
+
+Depois basta clicar no botão "Build" e você terá um launcher com o aspecto do launcher global. Utilize também sua criatividade, e bom divertimento!
+
+TuToRiaL By http://aprendizmuonline.kit.net/
+AprendizMuOnline
+Portal Brasileiro de MuOnline

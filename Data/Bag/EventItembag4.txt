@@ -1,0 +1,93 @@
+//=================================================================================
+//Index MapIndex DropFlag  MinMonsterLevel  MaxMonsterLevel
+//=================================================================================
+0
+0	0	0	1000	
+1	0	0	1000														
+2	0	0	1000															
+3	0	0	1000															
+4	0	0	1000															
+5	0	0	1000														
+6	0	0	1000															
+7	0	0	1000														
+8	0	0	1000															
+9	0	0	1000															
+10	0	0	1000															
+end
+																					
+//=========================================================================================================================																					
+//EventItemDropRate/1000
+//ItemDropRate/100  ExItemDropRate/1000
+//EventName 	DropZen     EventItemType  EventItemIndex   EventItemLevel  EventItemDropRate 	ItemDropRate ExItemDropRate
+//=========================================================================================================================
+1
+"StarOfXMas"	 50000	     	14	   	11		1		200		     80		 0
+end																					
+																					
+//=================================================================================
+//Type Index  MinLevel MaxLevel Skill  Luck  AddOption  Exitemflag
+//=================================================================================
+2
+0	11	0    	9   	1	1	1	0	//Legendary Sword
+0	13	0    	9   	1	1	1	0	//Double Blade
+1	5	0	9	1	1	1	0	//Battle Axe
+1	6	0	9	1	1	1	0	//Nikea Axe
+1	7	0	9	1	1	1	0	//Larkan Axe
+2	3	0	9	1	1	1	0	//Great Hammer
+3	7	0	9	1	1	1	0	//Berdysh
+3	4	0	9	1	1	1	0	//Serpent Spear
+4	11	0	9	1	1	1	0	//Light Crossbow
+4	4	0	9	1	1	1	0	//Tiger Bow
+4	12	0	9	1	1	1	0	//Serpent Crossbow
+4	3	0	9	0	1	1	0	//Thunder Staff
+0	2	0	9	0	1	1	0	//Rapier
+0	4	0	9	1	1	1	0	//Sword of Assassin
+0	3	0	9	1	1	1	0	//Katana
+1	1	0	9	0	1	1	0	//Hand Axe
+1	2	0	9	1	1	1	0	//Double Axe
+2	0	0	9	0	1	1	0	//Mace
+2	1	0	9	1	1	1	0	//Morning Star
+4	8	0	9	1	1	1	0	//Crossbow
+4	9	0	9	1	1	1	0	//Golden Crossbow
+5	0	0	9	0	1	1	0	//Skull Staff
+6	4	0	9	1	1	1	0	//Buckler
+6	1	0	9	0	1	1	0	//Horn Shield
+6	2	0	9	0	1	1	0	//Kite Shield
+0	10	0	9	1	1	1	0	//Light Saber
+6	5	0	9	1	1	1	0	//Dragon Slayer Shield
+6	8	0	9	1	1	1	0	//Tower Shield
+
+7 	5 	0	9 	0 	1 	1	0 	//Leather Helm
+8 	5 	0	9 	0 	1 	1 	0	//Leather Armor
+9 	5 	0	9 	0 	1 	1 	0	//Leather Pants
+10 	5 	0	9 	0 	1 	1 	0	//Leather Gloves
+11 	5 	0	9 	0 	1 	1 	0	//Leather Boots
+
+7 	0 	0	9 	0 	1 	1	0 	//Bronze Helm
+8 	0 	0	9 	0 	1 	1 	0	//Bronze Armor
+9 	0	0	9 	0 	1 	1 	0	//Bronze Pants
+10 	0 	0	9 	0 	1 	1 	0	//Bronze Gloves
+11 	0 	0	9 	0 	1 	1 	0	//Bronze Boots
+
+7 	12 	0	9 	0 	1 	1	0 	//Wind Helm
+8 	12	0	9 	0 	1 	1 	0	//Wind Armor
+9 	12	0	9 	0 	1 	1 	0	//Wind Pants
+10 	12 	0	9 	0 	1 	1 	0	//Wind Gloves
+11 	12 	0	9 	0 	1 	1 	0	//Wind Boots
+
+7 	13 	0	9 	0 	1 	1	0 	//Spirit Helm
+8 	13	0	9 	0 	1 	1 	0	//Spirit Armor
+9 	13	0	9 	0 	1 	1 	0	//Spirit Pants
+10 	13 	0	9 	0 	1 	1 	0	//Spirit Gloves
+11 	13 	0	9 	0 	1 	1 	0	//Spirit Boots
+
+7 	7 	0	9 	0 	1 	1	0 	//Sphinx Mask
+8 	7	0	9 	0 	1 	1 	0	//Sphinx Armor
+9 	7	0	9 	0 	1 	1 	0	//Sphinx Pants
+10 	7 	0	9 	0 	1 	1 	0	//Sphinx Gloves
+11 	7 	0	9 	0 	1 	1 	0	//Sphinx Boots
+
+14	13	0	0	0	0	0	0	//Jewel of Bless
+14	14	0	0	0	0	0	0	//Jewel of Soul
+12	15	0	0	0	0	0	0	//Jewel of Chaos
+end

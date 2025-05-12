@@ -1,0 +1,52 @@
+use MuOnline
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+CREATE PROCEDURE [dbo].[MUDAR_BAU]
+@login varchar(10),
+@futureVaultID tinyint
+AS
+Begin
+DECLARE
+@actualVaultID tinyint,
+@actualVaultItem varbinary(1920),
+@futureVaultItem varbinary(1920),
+@actualMoney int,
+@futureMoney int
+
+SELECT @actualVaultID = VaultID FROM warehouse WHERE AccountID = @login
+
+IF (@actualVaultID <> @futureVaultID) 
+Begin
+        IF EXISTS ( SELECT * FROM Extwarehouse WHERE VaultID = @futureVaultID AND AccountID = @login )
+        Begin
+                SELECT @actualVaultItem = Items FROM warehouse WHERE AccountID = @login
+                SELECT @futureVaultItem = Items FROM Extwarehouse WHERE AccountID = @login and vaultid=@futureVaultID
+                SELECT @actualMoney = isnull(Money,0) FROM warehouse WHERE AccountID = @login
+                SELECT @futureMoney = isnull(Money,0) FROM Extwarehouse WHERE AccountID = @login and vaultid=@futureVaultID
+                INSERT INTO Extwarehouse (AccountID, Items, Money,pw, VaultID,EndUseDate, DbVersion) VALUES (@login, @actualVaultItem, @actualMoney,NULL, @actualVaultID, getdate(),3)
+                UPDATE warehouse SET Items = @futureVaultItem, Money = @futureMoney, VaultID = @futureVaultID WHERE AccountID = @login
+                DELETE FROM Extwarehouse WHERE VaultID = @futureVaultID AND AccountID = @login
+        End
+        ELSE
+        Begin
+                SELECT @actualVaultItem = Items FROM warehouse WHERE AccountID = @login
+                SELECT @actualMoney = isnull(Money,0) FROM warehouse WHERE AccountID = @login
+                INSERT INTO Extwarehouse (AccountID, Items, Money, pw, VaultID, EndUseDate, DbVersion) VALUES (@login, @actualVaultItem, @actualMoney,NULL,@actualVaultID,getdate(),3)
+                UPDATE warehouse SET  VaultID = @futureVaultID, Items = NULL, Money = 0 WHERE AccountID = @login /*responsavel por limpar bau apos digitar ware*/
+        End
+End
+End
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+

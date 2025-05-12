@@ -1,0 +1,7 @@
+[GameServerInfo]
+
+ServerName		= Siege
+ServerCode		= 19
+ConnectMemberLoad	= 0
+NonPK			= 0
+PkLimitFree		= 1

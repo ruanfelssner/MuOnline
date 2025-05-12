@@ -1,0 +1,28 @@
+//Livia - A Garçonete
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption | Item Name
+//===========================================================================================================================
+
+	14	3	11	255	0	0	0	// Large Healing Potion
+	14	6	11	255	0	0	0	// Large Mana Potion
+	14	8	11	255	0	0	0       // Antidote
+	13	29	0	0	0	0	0       // Armor of Guardman
+	14	10	0 	0	0 	0	0       // Town Portal Scroll
+	14	23	1	0	0	0	0       // Ring of Honor
+	14	24	0	0	0	0	0       // Broken Sword
+	14	24	1	0	0	0	0       // Dark Stone
+	14	26	0	0	0	0	0       // Soul of Wizard
+	14	25	0	0	0	0	0       // Tear Of Elf
+	14	23	0	0	0	0	0       // King's Book
+	14	28	1	0	0	0	0	// Lost Map +1
+	14      28	2 	0	0	0	0       // Lost Map +2
+	14	28	3	0	0	0	0       // Lost Map +3
+	14	28	4	0	0	0	0       // Lost Map +4
+	14	28	5	0	0	0	0	// Lost Map +5
+	14	28	6	0	0	0	0	// Lost Map +6
+	14	28	7	0	0	0	0	// Lost Map +7
+	13 	0 	0 	255 	0 	0 	0 	// Guardian Angel
+	13 	1 	0 	255 	0 	0 	0  	// Satan
+
+end

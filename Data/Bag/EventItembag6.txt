@@ -1,0 +1,27 @@
+//===========================================================================
+//	[Type]	[Index]	[Level]	[Skill]	[Exc]	[Option]	[Name]
+//===========================================================================
+	15	0	0	0	0	0		 // Scroll of Poison
+	15	1	0	0	0	0		 // Scroll of Meteorite
+	15	2	0	0	0	0		 // Scroll of Lighting
+	15	3	0	0	0	0		 // Scroll of Fire Ball
+	15	4	0	0	0	0		 // Scroll of Flame
+	15	5	0	0	0	0		 // Scroll of Teleport
+	15	6	0	0	0	0		 // Scroll of Ice
+	15	7	0	0	0	0		 // Scroll of Twister
+	15	8	0	0	0	0		 // Scroll of Evil Spirit
+	15	9	0	0	0	0		 // Scroll of Hellfire
+	15	10	0	0	0	0		 // Scroll of Power Wave
+	15	11	0	0	0	0		 // Scroll of Aquaflash
+	15	12	0	0	0	0		 // Scroll of Blast
+	15	13	0	0	0	0		 // Scroll of Inferno
+	15	14	0	0	0	0		 // Scroll of Telekinesis
+	15	15	0	0	0	0		 // Scroll of Soul Barrier
+	15	16	0	0	0	0		 // Scroll of Decay
+	15	17	0	0	0	0		 // Scroll of Ice Storm
+	15	18	0	0	0	0		 // Scroll of Nova
+	12	21	0	0	0	0		 // Scroll of FireBurst
+	12	22	0	0	0	0		 // Scroll of Summon
+	12	23	0	0	0	0		 // Scroll of Critical Damage
+	12	24	0	0	0	0		 // Scroll of Electric Spark
+end

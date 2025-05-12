@@ -1,0 +1,66 @@
+//=================================================================================
+//Wepons and Shields
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0 	0 	0 	1	1 	2	//Kris
+0 	1 	0 	1 	1 	2	//Short Sword
+0 	2 	0 	1 	1 	2	//Rapier
+0 	3 	0	1	1 	2	//Katana
+0 	4 	0 	1	1 	2	//Sword of Assassin
+1 	0 	0 	1	1 	2	//Small Axe
+1 	1 	0 	1 	1 	2	//Hand Axe
+1 	2 	0 	1 	1 	2	//Double Axe
+2 	0 	0 	1	1 	2	//Mace
+2 	1 	0 	1 	1 	2	//Morning Star
+2 	2 	0 	1 	1 	2	//Flail
+4 	0 	0 	1 	1 	2	//Short Bow
+4 	1 	0 	1 	1 	2	//Bow
+4 	8 	0 	1 	1 	2	//Crossbow
+4 	9 	0 	1 	1 	2	//Golden Crossbow
+5 	0 	0 	1 	1 	2	//Skull Staff
+5 	1 	0 	1 	1 	2	//Angelic Staff
+6 	4 	0 	1 	1 	2	//Buckler
+
+//=================================================================================
+//Sets
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7 	0 	0 	0 	1 	2	//Bronze Helm
+8 	0 	0 	0 	1 	2	//Bronze Armor
+9 	0 	0 	0 	1 	2	//Bronze Pants
+10 	0 	0 	0 	1 	2	//Bronze Gloves
+11 	0 	0 	0 	1 	2	//Bronze Boots
+
+7 	2 	0 	0 	1 	2	//Pad Helm
+8 	2 	0 	0 	1 	2 	//Pad Armor
+9 	2 	0	0 	1 	2 	//Pad Pants
+10 	2 	0 	0 	1 	2	//Pad Gloves
+11 	2 	0 	0 	1 	2 	//Pad Boots
+
+7 	5 	0 	0 	1 	2 	//Leather Helm
+8 	5 	0 	0 	1 	2 	//Leather Armor
+9 	5 	5 	0 	1 	2 	//Leather Pants
+10 	5 	0 	0 	1 	2 	//Leather Gloves
+11 	5 	0 	0 	1 	2 	//Leather Boots
+
+7 	10 	0 	0 	1 	2 	//Vine Helm
+8 	10 	0 	0 	1 	2 	//Vine Armor
+9 	10 	0 	0 	1 	2 	//Vine Pants
+10 	10 	0 	0 	1 	2	//Vine Gloves
+11 	10 	0 	0 	1 	2 	//Vine Boots
+
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+13 	8 	1 	0 	1 	2	//Ring of Ice
+13 	9 	1 	0 	1 	2	//Ring of Poison
+13 	21 	1 	0 	1 	2 	//Ring of Fire
+13 	22 	1 	0 	1 	2 	//Ring of Earth
+13 	23 	1 	0 	1 	2	//Ring of Wind
+13 	24 	1 	0 	1 	2	//Ring of Magic
+
+13 	25 	1 	0 	1 	2	//Pedant of Ice
+13 	26 	1 	0 	1 	2	//Pendant of Wind
+13 	27 	1 	0 	1 	2	//Pendant of Water
+13 	28 	1 	0 	1 	2	//Pendant of Ability

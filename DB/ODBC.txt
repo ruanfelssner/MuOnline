@@ -1,0 +1,5 @@
+Criar as seguintes ODBC:
+
+MuOnline
+MuOnlineJoinDB
+USELOG

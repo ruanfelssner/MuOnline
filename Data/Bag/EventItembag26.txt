@@ -1,0 +1,66 @@
+//=================================================================================
+//Index MapIndex DropFlag  MinMonsterLevel  MaxMonsterLevel
+//=================================================================================
+0
+0	0	0	1000	
+1	0	0	1000														
+2	0	0	1000															
+3	0	0	1000															
+4	0	0	1000															
+5	0	0	1000														
+6	0	0	1000															
+7	0	0	1000														
+8	0	0	1000															
+9	0	0	1000															
+10	0	0	1000															
+end
+
+//=========================================================================================================================																					
+//EventItemDropRate/1000
+//ItemDropRate/100  ExItemDropRate/1000
+//EventName 	DropZen     EventItemType  EventItemIndex   EventItemLevel  EventItemDropRate 	ItemDropRate ExItemDropRate
+//=========================================================================================================================
+1										
+"BlueChocolateBox"	1000000		0		0		0		0		100		0											
+end																			
+																																					
+//=================================================================================
+//Type Index  MinLevel MaxLevel Skill  Luck  AddOption  Exitemflag
+//=================================================================================
+2																			
+0	22	0    	4   	0	1	1	0	//Knight Blade
+0	23	0    	4   	0	1	1	0	//Dragon Spear
+2	14	0    	4   	0	1	1	0	//Dark Breaker
+4	21	0    	4   	0	1	1	0	//Dark Reign Blade
+5	12	0    	4   	0	1	1	0	//Great Lord Scepter
+7	29	0    	4   	0       1	1	0	//Great Dragon Helm
+7	30	0    	4   	0	1	1	0	//Dark Soul Helm
+7	31	0    	4   	0	1	1	0	//Red Spirit Helm
+7	32	0    	4   	0	1	1	0	//Dark Master Mask
+7	33	0    	4   	0	1	1	0	//Dark Master Mask	
+8	29	0    	4   	0       1	1	0	//Great Dragon Helm
+8	30	0    	4   	0	1	1	0	//Dark Soul Helm
+8	31	0    	4   	0	1	1	0	//Red Spirit Helm
+8	32	0    	4   	0	1	1	0	//Dark Master Mask
+8	33	0    	4   	0	1	1	0	//Dark Master Mask	
+9	29	0    	4   	0	1	1	0	//Great Dragon Pants
+9	30	0    	4   	0	1	1	0	//Dark Soul Pants
+9	31	0    	4   	0	1	1	0	//Hurricane Pants
+9	32	0    	4   	0	1	1	0	//Red Spirit Pants
+9	33	0    	4   	0	1	1	0	//Dark Master Pants
+10	29	0    	4   	0	1	1	0	//Great Dragon Gloves
+10	30	0    	4   	0	1	1	0	//Dark Soul Gloves
+10	31	0    	4   	0	1	1	0	//Hurricane Gloves
+10	32	0    	4   	0	1	1	0	//Red Spirit Gloves
+10	33	0    	4   	0	1	1	0	//Dark Master Gloves
+11	29	0    	4   	0 	1	1	0	//Great Dragon Boots
+11	30	0    	4   	0	1	1	0	//Dark Soul Boots
+11	31	0    	4   	0	1	1	0	//Hurricane Boots
+11	32	0    	4   	0	1	1	0	//Red Spirit Boots
+11	33	0    	4   	0	1	1	0	//Dark Master Boots
+8 	23 	0    	7   	0       1	1	0	//Hurricane Armor
+8 	24 	0    	7   	0	1	1	0	//Red Sprit Armor
+8 	21 	0    	7   	0	1	1	0	//Great Dragon Armor
+8 	22	0    	7   	0	1	1	0	//Dark Soul Armor
+8 	28	0    	7   	0	1	1	0	//Dark Master Armor
+end

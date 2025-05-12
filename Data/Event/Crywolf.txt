@@ -1,0 +1,80 @@
+//Modo		(0 Off, 1 On)
+//Stado 	(0 StandBy, 1 Start)
+//Mês	 	(1-12, -1 Todo Mês)
+//Dia		(1-31, -1 Todo Dia)
+//Dias/semana	(1-7, 1 Segunda / -1 Todo Dia)
+//Hour		(0-23)
+//Min		(0-59)
+//ConTime	(Não editar)
+
+//Configurações de tempos
+//Modo	Stado	Mês	Dia  Dia/Semana Hora	Min	ConTime
+0
+0	1	-1	-1	-1	0	30	-1
+0	1	-1	-1	-1	6	30	-1
+0	1	-1	-1	-1	12	30	-1
+0	1	-1	-1	-1	18	30	-1
+end
+
+//Configurações de Monstros
+//'1' Periodo de preparação
+//'2' Notificação de invasão
+//'3' Preparar para invasão
+//'4' Processo de ataque 
+//'5' Notificação de vitoria ou derrota
+//'6' Presente de xp/monstro
+
+//Status Hora	Minuto	Segundo
+1
+1	0	0	60
+2	0	0	60
+3	0	0	150
+4	0	0	900
+5	0	0	15
+6	0	0	10
+end
+
+//Grupode AI
+2
+1
+2
+3
+4
+6
+7
+8
+9
+10
+11
+12
+13
+end
+
+//Grupo do Balgass
+//Grupo Numero Turno Tempo
+3
+5		600
+end
+
+//AI Change
+4
+300
+end
+
+//Placar MVP
+//Balgass	DarkElf	Balram	Soram	DeathSpirit	Tanker	Contractor
+5
+7000		3000	600	700	600		1000	6000
+end
+
+//Calculo de Placar MVP
+//RankD RankC RankB RankA RankS
+6
+0	1001	3001	5001	10001
+end
+
+//Experiencia calculada de MVP
+//RankD RankC RankB RankA RankS
+7
+0	200000	800000	1200000	1800000
+end

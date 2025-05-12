@@ -1,0 +1,46 @@
+//Pasi - O Mago
+
+//===========================================================================================================================
+// Type   |  ItemID | Level |   Dur  | Skill | Luck | AddOption | Item Name
+//===========================================================================================================================
+	7	2	9	0	0	1	4	// Pad Helm
+	7	3	9	0	0	1	4	// Legendary Helm
+	7	4	9	0	0	1	4	// Bone Helm
+	7	7	9	0	0	1	4	// Sphinx Helm
+
+	8	2	9	0	0	1	4	// Pad Armor
+	8	3	9	0	0	1	4	// Legendary Armor
+	8	4	9	0	0	1	4	// Bone Armor
+	8	7	9	0	0	1	4	// Sphinx Armor
+
+	10	2	9	0	0	1	4	// Pad Gloves
+	10	3	9	0	0	1	4	// Legendary Gloves
+	10	4	9	0	0	1	4	// Bone Gloves
+	10	7	9	0	0	1	4	// Sphinx Gloves
+
+	9	2	9	0	0	1	4	// Pad Pants
+	9	3	9	0	0	1	4	// Legendary Pants
+	9	4	9	0	0	1	4	// Bone Pants
+	9	7	9	0	0	1	4	// Sphinx Pants
+
+	11	2	9	0	0	1	4	// Pad Boots
+	11	3	9	0	0	1	4	// Legendary Boots
+	11	4	9	0	0	1	4	// Bone Boots
+	11	7	9	0	0	1	4	// Sphinx Boots
+
+	5	10	9	0	1	1	4	// Dragon Staff
+	5	11	9	0	1	1	4	// Staff Of Kundun
+
+	6	14	9	0	1	1	4	// Legendary Shield
+	6	15	9	0	1	1	4	// Grand Soul Shield
+
+	15	2	0	0	0	0	0	// Lightning Spell
+	15	8	0	0	0	0	0	// Evil Spirits Spell
+	15	9	0	0	0	0	0	// Hell Fire Spell
+	15	11	0	0	0	0	0	// Aqua Beam Spell
+
+	15	15	0	0	0	0	0	// Mana Shield Spell
+	15	14	0	0	0	0	0	// Mass Teleport Spell
+	15	13	0	0	0	0	0	// Inferno Spell
+	15	5	0	0	0	0	0	// Teleport Spell
+end

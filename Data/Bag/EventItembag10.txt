@@ -1,0 +1,42 @@
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+5	6	0	0	1	0	// Staff of Resurrection
+6	16	0	0	1	0	// Elemental Shield
+3	9	0	0	1	0       // Bill of Balrog
+5	3	0	0	1	0	// Thunder Staff
+5	5	0	0	1	0       // Legendary Staff
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	6	0	0	1	0       // Scale Helm
+7	7	0	0	1	0       // Sphinx Mask
+7	14	0	0	1	0	// Guardian Helm
+7	1	0	0	1	0       // Dragon Helm
+7	3	0	0	1	0	// Legendary Helm
+8	6	0	0	1	0	// Scale Armor
+8	7	0	0	1	0	// Sphinx Armor
+8	14	0	0	1	0	// Guardian Armor
+8	1	0	0	1	0       // Dragon Armor
+8	15	0	0	1	0	// Storm Crow Armor
+8	3	0	0	1	0	// Legendary Armor
+9	6	0	0	1	0	// Scale Pants
+9	7	0	0	1	0	// Sphinx Pants
+9	14	0	0	1	0	// Gaurdian Pants
+9	1	0	0	1	0	// Dragon Pants
+9	15	0	0	1	0	// Storm Crow Pants
+9	3	0	0	1	0	// Legendary Pants
+10	6	0	0	1	0	// Scale Gloves
+10	7	0	0	1	0	// Sphinx Gloves
+10	14	0	0	1	0	// Guardian Gloves
+10	1	0	0	1	0	// Dragon Gloves
+10	15	0	0	1	0	// Storm Crow Gloves
+10	3	0	0	1	0	// Legendary Gloves
+11	6	0	0	1	0	// Scale Boots
+11	7	0	0	1	0	// Sphinx Boots	
+11	14	0	0	1	0	// Gaurdian Boots	
+11	1	0	0	1	0	// Dragon Boots
+11	15	0	0	1	0	// Storm Crow Boots	
+11	3	0	0	1	0	// Legendary Boots
